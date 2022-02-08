@@ -33,12 +33,13 @@
 
     .text-box{
         min-width: 200px;
-        font-family: $font-nunito-sans-black;
-        font-size: 14px;
+        font-family: 'Nunito Sans';
+        font-weight: 500;
+        font-size: 17px;
         color: #62883b;
         position: absolute;
         left: 28px;
-        top: 10px;
+        top: 8px;
     }
     .line-box{
         border-left: 0px solid #FFF;

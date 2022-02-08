@@ -320,6 +320,69 @@
             }
         },
         {
+            "name": "slideshow_ing",
+            "icon": "icons/components/slideshow.svg",
+            "label": "Slideshow Língua Inglesa",
+            "properties": [
+                { "name": "slides", "directiveKey": "slideshow" },
+                { "control": { "type": "header" }, "label": { "key": "COMPONENT_SLIDESHOW_PROPERTIES_HEADER_LABEL" } },
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "image": { "withContent": "image" }
+            }
+        },
+        {
+            "name": "slideshow_art",
+            "icon": "icons/components/slideshow.svg",
+            "label": "Slideshow Linguagens",
+            "properties": [
+                { "name": "slides", "directiveKey": "slideshow" },
+                { "control": { "type": "header" }, "label": { "key": "COMPONENT_SLIDESHOW_PROPERTIES_HEADER_LABEL" } },
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "image": { "withContent": "image" }
+            }
+        },
+        {
+            "name": "slideshow_mat",
+            "icon": "icons/components/slideshow.svg",
+            "label": "Slideshow Matemática",
+            "properties": [
+                { "name": "slides", "directiveKey": "slideshow" },
+                { "control": { "type": "header" }, "label": { "key": "COMPONENT_SLIDESHOW_PROPERTIES_HEADER_LABEL" } },
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "image": { "withContent": "image" }
+            }
+        },
+        {
             "name": "container",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -1845,6 +1908,9 @@
         "name": "imagens",
         "components": [
             "slideshow_por",
+            "slideshow_ing",
+            "slideshow_art",
+            "slideshow_mat",
             "image",
             "imagem_sem_margem",
             "imagem_centralizada",

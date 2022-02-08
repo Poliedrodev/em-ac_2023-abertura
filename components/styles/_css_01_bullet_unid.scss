@@ -4,8 +4,16 @@
   color: #FFFFFF;
   font-family: 'Montserrat';
   font-weight: 500;
-  margin: 0px 28px 24px 13px;
+  margin: 0px 28px 24px 0px;
   line-height: 1.8em;
   border-left: solid 2px #FFFFFF;
   padding-left: 10px;
+
+  &._right {
+    float: right;
+    clear: right;
+    width: 43%;
+    margin-left: 24px;
+    z-index: 1;
+}
 }
