@@ -299,6 +299,27 @@
             }
         },
         {
+            "name": "slideshow_por",
+            "icon": "icons/components/slideshow.svg",
+            "label": "Slideshow Língua Portuguesa",
+            "properties": [
+                { "name": "slides", "directiveKey": "slideshow" },
+                { "control": { "type": "header" }, "label": { "key": "COMPONENT_SLIDESHOW_PROPERTIES_HEADER_LABEL" } },
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "image": { "withContent": "image" }
+            }
+        },
+        {
             "name": "container",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -439,6 +460,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_boxe_abertura",
+            "icon": "icons/components/container.svg",
+            "label": "Boxe Abertura",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_boxe1_dentro_de_boxe",
             "icon": "icons/components/container.svg",
             "label": "Container Boxe 1 dentro de boxe",
@@ -547,10 +574,15 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_01_texto_unid_bullet",
+            "icon": "icons/components/icon_01_texto_unid.svg",
+            "label": "01 Texto Unidade Bullet",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },        {
             "name": "css_01_bullet_unid",
             "icon": "icons/components/icon_01_bullet_unid.svg",
-            "label": "01 Bullet Unidade",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "label": "01 Abertura Competências",
+            "properties": ["style", "position", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "css_02_texto_geral",
@@ -1159,6 +1191,12 @@
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Sociologia",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_habilidades",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Habilidades",
+            "properties": ["style", "position", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "css_06_boxe1",
@@ -1806,20 +1844,13 @@
         "label": "Imagens",
         "name": "imagens",
         "components": [
+            "slideshow_por",
             "image",
-            "hero_tirinha",
-            "imagem_boxe_exercicio",
-            "imagem_boxe_exercicio_item",
-            "imagem_boxe1",
             "imagem_sem_margem",
             "imagem_centralizada",
             "imagem_coluna_falsa",
             "imagem_meia_coluna",
-            "imagem_meia_coluna_container",
-            "author",
-            "hero", 
-            "product",
-            "slideshow"
+            "imagem_meia_coluna_container"
     ]
     },
     {
@@ -1827,6 +1858,7 @@
         "name": "containers",
         "components": [
             "container",
+            "container_boxe_abertura",
             "container_coluna_falsa",
             "container_exercicios",
             "container_texto_citado",
@@ -1839,57 +1871,7 @@
             "container_refletir_e_analisar",
             "container_repertorio_cultural",
             "container_saiba_mais",
-            "container_textos",
-            "css_06_boxe1",
-            "css_06_boxe2",
-            "css_06_boxe3",
-            "css_06_boxe4",
-            "css_06_boxe_discussao_em_sala",
-            "css_06_container_boxe_discussao_em_sala",
-            "css_06_boxe_em_arte",
-            "css_06_boxe_em_biologia",
-            "css_06_boxe_em_filosofia",
-            "css_06_boxe_em_fisica",
-            "css_06_boxe_em_geografia",
-            "css_06_boxe_em_historia",
-            "css_06_boxe_em_lingua_inglesa",
-            "css_06_boxe_em_lingua_portuguesa",
-            "css_06_boxe_em_literatura",
-            "css_06_boxe_em_matematica",
-            "css_06_boxe_em_producao_de_texto",
-            "css_06_boxe_em_quimica",
-            "css_06_boxe_em_sociologia",
-            "css_06_boxe_experimento",
-            "css_06_container_boxe_experimento",
-            "css_06_boxe_fique_ligado",
-            "css_06_container_boxe_fique_ligado",
-            "css_06_boxe_go_further",
-            "css_06_container_boxe_go_further",
-            "css_06_boxe_mais",
-            "css_06_container_boxe_mais",
-            "css_03_container_questao_resolvida",
-            "css_06_boxe_speak_out",
-            "css_06_container_boxe_speak_out",
-            "css_06_boxe_watch_out",
-            "css_06_container_boxe_watch_out",
-            "css_07_boxe1",
-            "css_07_boxe2",
-            "css_07_boxe3",
-            "css_07_boxe4",
-            "css_07_secao_aplicando_conhecimentos",
-            "css_07_secao_arte_em_leitura",
-            "css_07_secao_brain_teaser",
-            "css_07_secao_consolidando_saberes",
-            "css_07_secao_dive_in",
-            "css_07_secao_leitura_de_documentos",
-            "css_07_secao_na_hora_da_prova",
-            "css_07_secao_no_enem_e_assim",
-            "css_07_secao_ponto_de_vista",
-            "css_07_secao_por_dentro_da_arte",
-            "css_07_secao_practice_it",
-            "css_07_secao_superacao",
-            "css_07_secao_texto_e_contexto",
-            "css_07_secao_texto_em_foco"
+            "container_textos"
     ]
     },
 {
@@ -1915,6 +1897,7 @@
                 "css_01_titulo3",
                 "css_01_titulo4",
                 "css_01_texto_unid",
+                "css_01_texto_unid_bullet",
                 "css_01_bullet_unid"
             ]
         },
