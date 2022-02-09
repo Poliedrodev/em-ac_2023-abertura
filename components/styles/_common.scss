@@ -1,5 +1,3 @@
-/* Constants */
-$bodyBackground: #f7dedf;
 /* Cores */
 $textColor: #000000;
 $textColor2: #666666;
@@ -27,6 +25,9 @@ $seg_mat_cor1: #F1CB40;
 $seg_mat_cor2: #C09100;
 $seg_mat_cor3: #FAEDBC;
 $seg_mat_cor4: #FDF7E2;
+/* Constants */
+$bodyBackground: $por_cor4;
+
 /* Fontes */
 $fontName: 'Lato';
 $defaultFontSize: 14px;
@@ -94,18 +95,10 @@ body {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-overflow-scrolling: touch;
-    background-color: #f7dedf;
+    background-color: $bodyBackground;
     :focus {
         outline: none;
     }
-}
-
-html{
-    background: url('img/background/lumen_ac_lingua_portuguesa.svg') center center no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 body {
@@ -114,7 +107,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #f7dedf;
     &::after {
         content: ' ';
         display: block;
