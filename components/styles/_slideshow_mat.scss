@@ -27,7 +27,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
         height: $slideshowMaxHeight;
         border: 0 none;
         .slides {
-            position: absolute;
             top: 0;
             left: 50%;
             margin-left: -($slideshowMaxWidth / 2);
@@ -50,10 +49,8 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                 figcaption {
                     /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-                    position: absolute;
                     font-family: 'Montserrat';
                     font-weight: 500;
-                    text-align: right;
                     -webkit-transform: none !important;
                     @include webkit-prefix(flex-shrink, 0);
                     color: $mat_cor1;

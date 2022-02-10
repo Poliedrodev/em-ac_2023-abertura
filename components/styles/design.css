@@ -3,8 +3,8 @@
 * This file has been generated while building the components package.
 * PLEASE DO NOT MODIFY THIS FILE BY HAND.
 */
-/* Constants */
 /* Cores */
+/* Constants */
 /* Fontes */
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 /* Font embeds, examples see: https://www.google.com/fonts */
@@ -25,31 +25,23 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #f7dedf;
+  background-color: #dfdaea;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch;
-  background-color: #f7dedf; }
+  background-color: #dfdaea; }
   html :focus,
   body :focus {
     outline: none; }
-
-html {
-  background: url("img/background/lumen_ac_lingua_portuguesa.svg") center center no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
 
 body {
   max-width: 100%;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
-  background-color: #f7dedf; }
+  overflow-x: hidden; }
   body::after {
     content: ' ';
     display: block;
@@ -121,7 +113,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #f7dedf; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;
@@ -1303,7 +1295,6 @@ span[style="text-decoration: line-through;"] {
         .slideshow .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
           -webkit-transform: none !important;
           align-items: flex-end;
           height: 50px;
@@ -1521,10 +1512,8 @@ span[style="text-decoration: line-through;"] {
         .slideshow_por .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
           font-family: 'Montserrat';
           font-weight: 500;
-          text-align: right;
           -webkit-transform: none !important;
           -webkit-flex-shrink: 0;
           flex-shrink: 0;
@@ -1546,7 +1535,7 @@ span[style="text-decoration: line-through;"] {
         left: 10px;
         margin: -15px 0 0 0;
         border-radius: 50%;
-        background-color: #981711;
+        background-color: #96171a;
         transition-property: background-color;
         transition-timing-function: linear;
         transition-duration: 0.2s; }
@@ -1558,7 +1547,7 @@ span[style="text-decoration: line-through;"] {
         top: 50%;
         left: 50%;
         margin: -5px 0 0 -5px;
-        background-color: #981711;
+        background-color: #96171a;
         background-repeat: no-repeat;
         background-position: center center; }
       .slideshow_por .slideshow-container .arrow._left {
@@ -1741,10 +1730,8 @@ span[style="text-decoration: line-through;"] {
         .slideshow_ing .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
           font-family: 'Montserrat';
           font-weight: 500;
-          text-align: right;
           -webkit-transform: none !important;
           -webkit-flex-shrink: 0;
           flex-shrink: 0;
@@ -1961,10 +1948,8 @@ span[style="text-decoration: line-through;"] {
         .slideshow_art .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
           font-family: 'Montserrat';
           font-weight: 500;
-          text-align: right;
           -webkit-transform: none !important;
           -webkit-flex-shrink: 0;
           flex-shrink: 0;
@@ -2157,7 +2142,6 @@ span[style="text-decoration: line-through;"] {
     height: 700px;
     border: 0 none; }
     .slideshow_mat .slideshow-container .slides {
-      position: absolute;
       top: 0;
       left: 50%;
       margin-left: -50%;
@@ -2181,10 +2165,8 @@ span[style="text-decoration: line-through;"] {
         .slideshow_mat .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
           font-family: 'Montserrat';
           font-weight: 500;
-          text-align: right;
           -webkit-transform: none !important;
           -webkit-flex-shrink: 0;
           flex-shrink: 0;
@@ -2395,7 +2377,7 @@ span[style="text-decoration: line-through;"] {
     .container._right {
       float: right;
       clear: right;
-      width: 47%;
+      width: 43%;
       padding-top: 47px;
       padding-right: 70px;
       z-index: 1; } }
@@ -3830,9 +3812,11 @@ blockquote {
   display: block;
   color: #45973D;
   font-family: 'Barlow Condensed';
-  font-weight: 550;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1em;
   font-size: 92px;
-  margin: 40px 68px 0px 68px;
+  margin: 0px 68px 0px 68px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_cap.artes {
     color: #3F1F71 !important; }
@@ -3919,19 +3903,21 @@ blockquote {
     margin: 0px 68px 40px 68px; }
 
 .css_01_titulo_cap_num {
-  position: absolute;
-  bottom: 55px;
-  color: transparent;
-  font-size: 500px;
-  left: 50%;
-  top: 40%;
+  color: #E59798;
+  font-size: 30px;
   z-index: 1;
   font-family: 'Barlow Condensed';
-  font-weight: 550;
-  -webkit-text-stroke-color: #FFFFFF;
-  -webkit-text-stroke-width: 3px;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 16px 0px; }
+  font-weight: 600;
+  margin: 0px 68px 0px 68px;
+  display: flex; }
+  .css_01_titulo_cap_num.artes {
+    color: #B9A9CB; }
+  .css_01_titulo_cap_num.lingua_inglesa {
+    color: #8CCDD2; }
+  .css_01_titulo_cap_num.lingua_portuguesa {
+    color: #E59798; }
+  .css_01_titulo_cap_num.matematica {
+    color: #97B7D9; }
 
 .css_01_titulo1 {
   display: block;
@@ -4070,7 +4056,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 24px 0px 24px 68px; }
+  margin: 8px 0px 8px 68px; }
 
 .css_01_texto_unid_bullet {
   display: block;
@@ -4086,7 +4072,7 @@ blockquote {
     font-weight: 400;
     line-height: 1.5em;
     padding-left: 4px;
-    margin: 8px 0px 8px 50px; }
+    margin: -8px 0px -8px 50px; }
 
 .css_01_bullet_unid {
   display: block;

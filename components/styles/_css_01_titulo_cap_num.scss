@@ -1,15 +1,21 @@
 .css_01_titulo_cap_num {
-  position: absolute;
-  bottom: 55px;
-  color: transparent;
-  font-size: 500px;
-  left: 50%;
-  top: 40%;
+  color: $por_cor3;
+  font-size: 30px;
   z-index: 1;
   font-family: 'Barlow Condensed';
-  font-weight: 550;
-  -webkit-text-stroke-color: #FFFFFF;
-  -webkit-text-stroke-width: 3px;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 16px 0px;
+  font-weight: 600;
+  margin: 0px 68px 0px 68px;
+  display: flex;
+  &.artes {
+    color: $art_cor3;
+  }
+  &.lingua_inglesa {
+    color: $ing_cor3;
+  }
+  &.lingua_portuguesa {
+    color: $por_cor3;
+  }
+  &.matematica {
+    color: $mat_cor3;
+  }
 }

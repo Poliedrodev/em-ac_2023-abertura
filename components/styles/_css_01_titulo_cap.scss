@@ -2,10 +2,14 @@
   display: block;
   color: $title-color;
   font-family: 'Barlow Condensed';
-  font-weight: 550;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1em;
   font-size: 92px;
-  margin: 40px 68px 0px 68px;
+  margin: 0px 68px 0px 68px;
   padding: 0px 0px 16px 0px;
+
+
   &.artes {
     color: $art_cor2 !important;
     .line {
