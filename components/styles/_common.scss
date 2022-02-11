@@ -1,6 +1,6 @@
 /* Cores */
 $textColor: #000000;
-$textColor2: #666666;
+$textColor2: $textColor;
 $por_cor1: #c9252c;
 $por_cor2: #96171a;
 $por_cor3: #E59798;
@@ -26,7 +26,7 @@ $seg_mat_cor2: #C09100;
 $seg_mat_cor3: #FAEDBC;
 $seg_mat_cor4: #FDF7E2;
 /* Constants */
-$bodyBackground: $ing_cor4;
+$bodyBackground: $art_cor4;
 
 /* Fontes */
 $fontName: 'Lato';
@@ -288,7 +288,7 @@ span[style="text-decoration: line-through;"] {
         span {
             padding-left: 0.2em;
             font-weight: bold;
-            color: #666666;
+            color: $textColor;
         }
     }
     &.error {

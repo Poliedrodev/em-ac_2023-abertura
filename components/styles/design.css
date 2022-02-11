@@ -25,13 +25,13 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #d9f0ef;
+  background-color: #dfdaea;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch;
-  background-color: #d9f0ef; }
+  background-color: #dfdaea; }
   html :focus,
   body :focus {
     outline: none; }
@@ -113,7 +113,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d9f0ef; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;
@@ -190,7 +190,7 @@ span[style="text-decoration: line-through;"] {
       right: 0;
       left: 0; }
   .image > figcaption {
-    color: #808080;
+    color: #000000;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -201,11 +201,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .image._caption-inside > figcaption::before, .image._caption-top > figcaption::before, .image._caption-top-left > figcaption::before, .image._caption-top-right > figcaption::before, .image._caption-bottom-left > figcaption::before, .image._caption-bottom-right > figcaption::before, .image .imagem_boxe_exercicio._caption-inside > figcaption::before, .image .imagem_boxe_exercicio._caption-top > figcaption::before, .image .imagem_boxe_exercicio._caption-top-left > figcaption::before, .image .imagem_boxe_exercicio._caption-top-right > figcaption::before, .image .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .image .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .image .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .image .imagem_boxe_exercicio_item._caption-top > figcaption::before, .image .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .image .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .image .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .image .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .image .imagem_boxe1._caption-inside > figcaption::before, .image .imagem_boxe1._caption-top > figcaption::before, .image .imagem_boxe1._caption-top-left > figcaption::before, .image .imagem_boxe1._caption-top-right > figcaption::before, .image .imagem_boxe1._caption-bottom-left > figcaption::before, .image .imagem_boxe1._caption-bottom-right > figcaption::before, .image .hero_tirinha._caption-inside > figcaption::before, .image .hero_tirinha._caption-top > figcaption::before, .image .hero_tirinha._caption-top-left > figcaption::before, .image .hero_tirinha._caption-top-right > figcaption::before, .image .hero_tirinha._caption-bottom-left > figcaption::before, .image .hero_tirinha._caption-bottom-right > figcaption::before, .image .imagem_sem_margem._caption-inside > figcaption::before, .image .imagem_sem_margem._caption-top > figcaption::before, .image .imagem_sem_margem._caption-top-left > figcaption::before, .image .imagem_sem_margem._caption-top-right > figcaption::before, .image .imagem_sem_margem._caption-bottom-left > figcaption::before, .image .imagem_sem_margem._caption-bottom-right > figcaption::before, .image .imagem_centralizada._caption-inside > figcaption::before, .image .imagem_centralizada._caption-top > figcaption::before, .image .imagem_centralizada._caption-top-left > figcaption::before, .image .imagem_centralizada._caption-top-right > figcaption::before, .image .imagem_centralizada._caption-bottom-left > figcaption::before, .image .imagem_centralizada._caption-bottom-right > figcaption::before, .image .imagem_coluna_falsa._caption-inside > figcaption::before, .image .imagem_coluna_falsa._caption-top > figcaption::before, .image .imagem_coluna_falsa._caption-top-left > figcaption::before, .image .imagem_coluna_falsa._caption-top-right > figcaption::before, .image .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .image .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .image .imagem_meia_coluna._caption-inside > figcaption::before, .image .imagem_meia_coluna._caption-top > figcaption::before, .image .imagem_meia_coluna._caption-top-left > figcaption::before, .image .imagem_meia_coluna._caption-top-right > figcaption::before, .image .imagem_meia_coluna._caption-bottom-left > figcaption::before, .image .imagem_meia_coluna._caption-bottom-right > figcaption::before, .image .imagem_meia_coluna_container._caption-inside > figcaption::before, .image .imagem_meia_coluna_container._caption-top > figcaption::before, .image .imagem_meia_coluna_container._caption-top-left > figcaption::before, .image .imagem_meia_coluna_container._caption-top-right > figcaption::before, .image .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .image .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .image._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -280,7 +280,7 @@ span[style="text-decoration: line-through;"] {
       right: 0;
       left: 0; }
   .imagem_boxe_exercicio > figcaption {
-    color: #808080;
+    color: #000000;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -291,11 +291,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_boxe_exercicio .image._caption-inside > figcaption::before, .imagem_boxe_exercicio .image._caption-top > figcaption::before, .imagem_boxe_exercicio .image._caption-top-left > figcaption::before, .imagem_boxe_exercicio .image._caption-top-right > figcaption::before, .imagem_boxe_exercicio .image._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .image._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-inside > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-top > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-top-left > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-top-right > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_boxe_exercicio._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -370,7 +370,7 @@ span[style="text-decoration: line-through;"] {
       right: 0;
       left: 0; }
   .imagem_boxe_exercicio_item > figcaption {
-    color: #808080;
+    color: #000000;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -381,11 +381,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_boxe_exercicio_item .image._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .image._caption-top > figcaption::before, .imagem_boxe_exercicio_item .image._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .image._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .image._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .image._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-top > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_boxe_exercicio_item .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_boxe_exercicio_item._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -461,7 +461,7 @@ span[style="text-decoration: line-through;"] {
       right: 0;
       left: 0; }
   .imagem_boxe1 > figcaption {
-    color: #808080;
+    color: #000000;
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -472,11 +472,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_boxe1 .image._caption-inside > figcaption::before, .imagem_boxe1 .image._caption-top > figcaption::before, .imagem_boxe1 .image._caption-top-left > figcaption::before, .imagem_boxe1 .image._caption-top-right > figcaption::before, .imagem_boxe1 .image._caption-bottom-left > figcaption::before, .imagem_boxe1 .image._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_boxe1._caption-inside > figcaption::before, .imagem_boxe1._caption-top > figcaption::before, .imagem_boxe1._caption-top-left > figcaption::before, .imagem_boxe1._caption-top-right > figcaption::before, .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-inside > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-top > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-top-left > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-top-right > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_boxe1 .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-inside > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-top > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-inside > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-top > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-top > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_boxe1 .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_boxe1._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -566,11 +566,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .hero_tirinha .image._caption-inside > figcaption::before, .hero_tirinha .image._caption-top > figcaption::before, .hero_tirinha .image._caption-top-left > figcaption::before, .hero_tirinha .image._caption-top-right > figcaption::before, .hero_tirinha .image._caption-bottom-left > figcaption::before, .hero_tirinha .image._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-inside > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-top > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-top-left > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-top-right > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-top > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_boxe1._caption-inside > figcaption::before, .hero_tirinha .imagem_boxe1._caption-top > figcaption::before, .hero_tirinha .imagem_boxe1._caption-top-left > figcaption::before, .hero_tirinha .imagem_boxe1._caption-top-right > figcaption::before, .hero_tirinha .imagem_boxe1._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_boxe1._caption-bottom-right > figcaption::before, .hero_tirinha._caption-inside > figcaption::before, .hero_tirinha._caption-top > figcaption::before, .hero_tirinha._caption-top-left > figcaption::before, .hero_tirinha._caption-top-right > figcaption::before, .hero_tirinha._caption-bottom-left > figcaption::before, .hero_tirinha._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-inside > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-top > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-top-left > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-top-right > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_sem_margem._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_centralizada._caption-inside > figcaption::before, .hero_tirinha .imagem_centralizada._caption-top > figcaption::before, .hero_tirinha .imagem_centralizada._caption-top-left > figcaption::before, .hero_tirinha .imagem_centralizada._caption-top-right > figcaption::before, .hero_tirinha .imagem_centralizada._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_centralizada._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-inside > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-top > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-top-left > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-top-right > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-inside > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-top > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-top-left > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-top-right > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_meia_coluna._caption-bottom-right > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-inside > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-top > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-top-left > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-top-right > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .hero_tirinha .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .hero_tirinha._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -656,11 +656,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_sem_margem .image._caption-inside > figcaption::before, .imagem_sem_margem .image._caption-top > figcaption::before, .imagem_sem_margem .image._caption-top-left > figcaption::before, .imagem_sem_margem .image._caption-top-right > figcaption::before, .imagem_sem_margem .image._caption-bottom-left > figcaption::before, .imagem_sem_margem .image._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-inside > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-top > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-inside > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-top > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-top-left > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-top-right > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_sem_margem .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_sem_margem._caption-inside > figcaption::before, .imagem_sem_margem._caption-top > figcaption::before, .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-inside > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-top > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-top > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_sem_margem .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_sem_margem._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -750,11 +750,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_centralizada .image._caption-inside > figcaption::before, .imagem_centralizada .image._caption-top > figcaption::before, .imagem_centralizada .image._caption-top-left > figcaption::before, .imagem_centralizada .image._caption-top-right > figcaption::before, .imagem_centralizada .image._caption-bottom-left > figcaption::before, .imagem_centralizada .image._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-inside > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-top > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-top-left > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-top-right > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_centralizada .hero_tirinha._caption-inside > figcaption::before, .imagem_centralizada .hero_tirinha._caption-top > figcaption::before, .imagem_centralizada .hero_tirinha._caption-top-left > figcaption::before, .imagem_centralizada .hero_tirinha._caption-top-right > figcaption::before, .imagem_centralizada .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_centralizada .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-inside > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-top > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_centralizada._caption-inside > figcaption::before, .imagem_centralizada._caption-top > figcaption::before, .imagem_centralizada._caption-top-left > figcaption::before, .imagem_centralizada._caption-top-right > figcaption::before, .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-top > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_centralizada .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_centralizada._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -840,11 +840,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_coluna_falsa .image._caption-inside > figcaption::before, .imagem_coluna_falsa .image._caption-top > figcaption::before, .imagem_coluna_falsa .image._caption-top-left > figcaption::before, .imagem_coluna_falsa .image._caption-top-right > figcaption::before, .imagem_coluna_falsa .image._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .image._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-inside > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-top > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-top-left > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-top-right > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_coluna_falsa .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_coluna_falsa._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -930,11 +930,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_meia_coluna .image._caption-inside > figcaption::before, .imagem_meia_coluna .image._caption-top > figcaption::before, .imagem_meia_coluna .image._caption-top-left > figcaption::before, .imagem_meia_coluna .image._caption-top-right > figcaption::before, .imagem_meia_coluna .image._caption-bottom-left > figcaption::before, .imagem_meia_coluna .image._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-top > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-inside > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-top > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-top-left > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-top-right > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_meia_coluna .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-top > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-top > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_meia_coluna._caption-top > figcaption::before, .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_meia_coluna .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_meia_coluna._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -1020,11 +1020,11 @@ span[style="text-decoration: line-through;"] {
     padding: 8px 12px;
     background-color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
-    color: #3f3e3e;
+    color: #000000;
     margin: 0;
     /* before represents the placeholder text*/ }
     .imagem_meia_coluna_container .image._caption-inside > figcaption::before, .imagem_meia_coluna_container .image._caption-top > figcaption::before, .imagem_meia_coluna_container .image._caption-top-left > figcaption::before, .imagem_meia_coluna_container .image._caption-top-right > figcaption::before, .imagem_meia_coluna_container .image._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .image._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe_exercicio_item._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_boxe1._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-inside > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-top > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-top-left > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-top-right > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .hero_tirinha._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_sem_margem._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_centralizada._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-inside > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-top > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-top-left > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-top-right > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container .imagem_meia_coluna._caption-bottom-right > figcaption::before, .imagem_meia_coluna_container._caption-inside > figcaption::before, .imagem_meia_coluna_container._caption-top > figcaption::before, .imagem_meia_coluna_container._caption-top-left > figcaption::before, .imagem_meia_coluna_container._caption-top-right > figcaption::before, .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .imagem_meia_coluna_container._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
+      color: #000000; }
   .imagem_meia_coluna_container._caption-inside > figcaption {
     right: 0;
     bottom: 0;
@@ -2468,7 +2468,7 @@ span[style="text-decoration: line-through;"] {
 .title {
   font-size: 49px;
   font-weight: bold;
-  color: #1a1a1a;
+  color: #000000;
   margin: 40px auto 20px auto;
   /*
     * media query
@@ -2483,7 +2483,7 @@ span[style="text-decoration: line-through;"] {
 .subtitle {
   font-weight: 600;
   font-size: 23px;
-  color: #1a1a1a;
+  color: #000000;
   margin: 16px auto;
   /*
     * media query
@@ -2535,7 +2535,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 400;
   font-size: 18px;
   font-style: italic;
-  color: #7f7f7f;
+  color: #000000;
   /*
      * media query
      * $screen-sm-max constant is defined in the global style file (_common.scss)
@@ -2549,19 +2549,19 @@ span[style="text-decoration: line-through;"] {
 .headline .section {
   font-size: 23px;
   font-weight: bold;
-  color: #1a1a1a;
+  color: #000000;
   margin: 40px auto 20px auto; }
 
 .headline .title {
   font-size: 49px;
   font-weight: bold;
-  color: #1a1a1a;
+  color: #000000;
   margin: 40px auto 20px auto; }
 
 .headline .subtitle {
   font-weight: 600;
   font-size: 23px;
-  color: #1a1a1a;
+  color: #000000;
   margin: 16px auto; }
 
 /* Intro component style */
@@ -2584,7 +2584,7 @@ span[style="text-decoration: line-through;"] {
 blockquote {
   margin: 52px 0;
   padding: 0;
-  color: #666666;
+  color: #000000;
   position: relative;
   font-weight: 400;
   z-index: 1;
@@ -2684,7 +2684,7 @@ blockquote {
     .social-media.loading span {
       padding-left: 0.2em;
       font-weight: bold;
-      color: #666666; }
+      color: #000000; }
   .social-media.error {
     background-color: rgba(169, 68, 66, 0.05);
     color: rgba(169, 68, 66, 0.8); }
@@ -2763,7 +2763,7 @@ blockquote {
     .video.loading span {
       padding-left: 0.2em;
       font-weight: bold;
-      color: #666666; }
+      color: #000000; }
   .video.error {
     background-color: rgba(169, 68, 66, 0.05);
     color: rgba(169, 68, 66, 0.8); }
@@ -3705,7 +3705,7 @@ blockquote {
       z-index: 1; } }
 
 .container_textos {
-  border: 1.5px solid #404040;
+  border: 1.5px solid #000000;
   padding: 8px 16px 16px 16px;
   margin: 48px 68px 40px 68px;
   clear: both;
@@ -4054,7 +4054,7 @@ blockquote {
 .css_01_titulo3 {
   font-size: 24px;
   font-weight: bold;
-  color: #666666;
+  color: #000;
   font-family: "montserrat extrabold", "800";
   margin-top: 48px;
   padding: 0 68px;
@@ -4075,7 +4075,7 @@ blockquote {
 .css_01_texto_unid {
   display: block;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em;
@@ -4084,13 +4084,13 @@ blockquote {
 .css_01_texto_unid_bullet {
   display: block;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em; }
   .css_01_texto_unid_bullet ul li {
     font-size: 18px;
-    color: #404040;
+    color: #000000;
     font-family: 'Noticia Text';
     font-weight: 400;
     line-height: 1.5em;
@@ -4116,7 +4116,7 @@ blockquote {
 
 .css_02_texto_geral {
   display: block;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
@@ -4126,14 +4126,14 @@ blockquote {
 .css_02_texto_geral1 {
   display: block;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   line-height: 1.5em;
   margin: 24px 68px 24px 68px; }
 
 .css_02_texto_geral2 {
   display: block;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
@@ -4143,7 +4143,7 @@ blockquote {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   font-weight: 700;
   line-height: 1.5em;
@@ -4154,7 +4154,7 @@ blockquote {
 
 .css_02_texto_bullet ul li {
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   margin: 8px 68px 8px 50px;
   line-height: 1.5em;
@@ -4162,13 +4162,13 @@ blockquote {
 
 .css_02_texto_bullet_mancha_sub ul li {
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   margin: 16px 68px 16px 70px; }
 
 .css_02_texto_item {
   display: block;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
@@ -4179,7 +4179,7 @@ blockquote {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   font-weight: 700;
   line-height: 1.5em;
@@ -4192,7 +4192,7 @@ blockquote {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   font-weight: 700;
   line-height: 1.5em;
@@ -4205,7 +4205,7 @@ blockquote {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   font-weight: 700;
   line-height: 1.5em;
@@ -4242,14 +4242,14 @@ blockquote {
   display: block;
   font-family: "cookie";
   font-size: 40px;
-  color: #505050;
+  color: #000000;
   margin: 16px 0px;
   padding: 0px 68px; }
 
 .css_02_texto_citado_titulo {
   font-family: 'Noticia Text';
   font-weight: 700;
-  color: #404040;
+  color: #000000;
   line-height: 1.5em;
   font-size: 22px;
   display: block;
@@ -4258,7 +4258,7 @@ blockquote {
 .css_02_texto_citado {
   display: block;
   font-size: 17px;
-  color: #505050;
+  color: #000000;
   font-family: montserrat;
   font-weight: 400;
   line-height: 1.5em;
@@ -4266,7 +4266,7 @@ blockquote {
 
 .css_02_texto_citado_fonte {
   display: block;
-  color: #404040;
+  color: #000000;
   font-family: montserrat;
   font-size: 14px;
   text-align: right;
@@ -4278,7 +4278,7 @@ blockquote {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5em;
-  color: #404040;
+  color: #000000;
   display: block;
   margin: 24px 250px 24px 68px;
   padding: 8px 16px;
@@ -4296,7 +4296,7 @@ blockquote {
   font-family: "noticia text", "400";
   font-size: 13px;
   line-height: 1.5em;
-  color: #404040;
+  color: #000000;
   display: block;
   margin: 24px 0px 24px 0px;
   width: fit-content;
@@ -4313,7 +4313,7 @@ blockquote {
 
 .css_02_texto_vocabulario {
   display: block;
-  color: #404040;
+  color: #000000;
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 16px;
@@ -4325,7 +4325,7 @@ blockquote {
   display: block;
   font-family: 'Noticia Text';
   font-weight: 700;
-  color: #404040;
+  color: #000000;
   font-size: 18px;
   float: left;
   margin: 12px 0px 0px 32px; }
@@ -4334,7 +4334,7 @@ blockquote {
   display: block;
   font-family: "noticia text", "400";
   font-weight: 700;
-  color: #505050;
+  color: #000000;
   font-size: 18px;
   float: left;
   margin: 0px 8px 0px 0px;
@@ -4344,7 +4344,7 @@ blockquote {
   display: block;
   font-family: "noticia text", "400";
   font-size: 18px;
-  color: #707070;
+  color: #000000;
   float: left;
   margin: 0px 8px 0px 0px;
   padding: 0 0 0 68px; }
@@ -4433,7 +4433,7 @@ blockquote {
 .css_03_exercicio_enunciado {
   display: block;
   font-family: "noticia text", "400";
-  color: #404040;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 32px 0px 0px 32px; }
@@ -4441,7 +4441,7 @@ blockquote {
 .css_03_exercicio_texto {
   display: block;
   font-family: "noticia text", "400";
-  color: #404040;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 12px 0px 0px 32px; }
@@ -4547,7 +4547,7 @@ blockquote {
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
-  color: #707070;
+  color: #000000;
   margin: 16px 0px 16px 40px;
   padding: 0 68px; }
 
@@ -4556,7 +4556,7 @@ blockquote {
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
-  color: #707070;
+  color: #000000;
   margin: 16px 0 16px 40px;
   padding: 0 68px; }
   .css_03_exercicio_resolvido_bullet ul li {
@@ -4567,7 +4567,7 @@ blockquote {
   font-family: "noticia text", "400";
   line-height: 1.5em;
   font-size: 18px;
-  color: #707070;
+  color: #000000;
   float: left;
   margin: 10 0 0 110px;
   padding: 0 68px; }
@@ -4577,13 +4577,13 @@ blockquote {
   font-family: "noticia text", "400";
   font-size: 18px;
   margin: 12px 0px 0px 64px;
-  color: #404040;
+  color: #000000;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_alinhamento_1 {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 0px 16px 40px;
@@ -4592,7 +4592,7 @@ blockquote {
 .css_03_exercicio_bullet {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 68px 16px 88px; }
@@ -4602,7 +4602,7 @@ blockquote {
 .css_03_exercicio_bullet_sub {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 68px 16px 130px; }
@@ -4612,7 +4612,7 @@ blockquote {
 .css_03_exercicio_alternativa {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   float: left;
@@ -4624,13 +4624,13 @@ blockquote {
   line-height: 1.5em;
   font-size: 18px;
   margin: 12px 0px 0px 64px;
-  color: #404040;
+  color: #000000;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_romano {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 0px 16px 110px; }
@@ -4638,14 +4638,14 @@ blockquote {
 .css_03_exercicio_item_vf {
   display: block;
   font-family: "noticia text", "400";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   margin: 16px 0px 16px 110px; }
 
 .css_03_exercicio_citado_titulo {
   font-family: "noticia text", "700";
-  color: #505050;
+  color: #000000;
   line-height: 1.5em;
   font-size: 20px;
   margin: 24px 0px 16px 80px;
@@ -4653,7 +4653,7 @@ blockquote {
   display: block; }
 
 .css_03_exercicio_citado {
-  color: #505050;
+  color: #000000;
   font-family: "montserrat regular", "400";
   line-height: 1.5em;
   font-size: 18px;
@@ -4706,14 +4706,14 @@ blockquote {
 .css_05_credito {
   display: block;
   font-size: 9.8px;
-  color: #707070;
+  color: #000000;
   font-family: "montserrat regular", "400";
   margin-bottom: 32px; }
 
 .css_05_credito1 {
   display: block;
   font-size: 9.8px;
-  color: #707070;
+  color: #000000;
   font-family: "montserrat regular", "400";
   margin-bottom: 32px;
   padding: 0 68px; }
@@ -4721,14 +4721,14 @@ blockquote {
 .css_05_credito2 {
   display: block;
   font-size: 9.8px;
-  color: #707070;
+  color: #000000;
   font-family: "montserrat regular", "400";
   margin-bottom: 32px; }
 
 .css_05_legenda {
   display: block;
   font-size: 16px;
-  color: #707070;
+  color: #000000;
   font-family: montserrat;
   font-weight: 400;
   margin-bottom: 8px;
@@ -4800,7 +4800,7 @@ blockquote {
 .css_05_fonte {
   display: block;
   font-size: 12px;
-  color: #404040;
+  color: #000000;
   font-family: montserrat;
   font-weight: 400;
   margin: 0px 0px 24px 68px; }
@@ -4809,7 +4809,7 @@ blockquote {
   display: block;
   text-align: right;
   font-size: 14px;
-  color: #505050;
+  color: #000000;
   font-family: "montserrat regular", "400";
   margin: -16px 0px 24px 0px; }
 
@@ -4833,7 +4833,7 @@ blockquote {
   font-size: 16px;
   color: #f5006b;
   margin: 0px 68px;
-  border-bottom: solid 2px #666666;
+  border-bottom: solid 2px #000000;
   height: 32px; }
 
 .css_05_mapa_titulo {
@@ -4963,7 +4963,7 @@ blockquote {
   display: block;
   text-align: left;
   font-size: 24px;
-  color: #707070;
+  color: #000000;
   margin-top: 24px; }
 
 .css_06_boxe_texto1 {
@@ -4977,7 +4977,7 @@ blockquote {
 .css_06_boxe_texto2 {
   display: block;
   font-size: 18px;
-  color: #505050;
+  color: #000000;
   font-family: "noticia text", "400";
   margin: 16px 16px 16px 16px;
   line-height: 1.5em; }
@@ -5071,7 +5071,7 @@ blockquote {
   display: block;
   text-align: center;
   font-size: 18px;
-  color: #505050;
+  color: #000000;
   font-family: "noticia text", "700";
   margin: 24px 68px 24px 68px;
   padding: 24px;
@@ -8473,7 +8473,7 @@ blockquote {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 20px;
-  color: #71706f;
+  color: #000000;
   margin: 16px 0px 16px 0px; }
 
 .css_06_boxe_exercicio {
@@ -8602,7 +8602,7 @@ blockquote {
 .css_07_secao_titulo3 {
   text-align: left;
   font-size: 24px;
-  color: #666666;
+  color: #000000;
   margin-top: 24px; }
 
 .css_07_secao_titulo4 {
@@ -10064,7 +10064,7 @@ blockquote {
   display: block;
   text-align: left;
   font-size: 18px;
-  color: #666666;
+  color: #000000;
   font-family: "Prelo Bold";
   margin-top: 24px; }
 
