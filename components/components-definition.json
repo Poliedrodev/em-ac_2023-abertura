@@ -525,7 +525,7 @@
         {
             "name": "container_boxe_abertura",
             "icon": "icons/components/container.svg",
-            "label": "Boxe Abertura",
+            "label": "Boxe Habilidades",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -598,12 +598,18 @@
             "name": "css_01_titulo_cap",
             "icon": "icons/components/icon_01_titulo_cap.svg",
             "label": "01 Título Capítulo",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "letter-spacing", "line-height"]
         },
         {
             "name": "css_01_titulo_cap_num",
             "icon": "icons/components/icon_01_titulo_cap.svg",
             "label": "Número do Capítulo",
+            "properties": ["style"]
+        },
+        {
+            "name": "css_01_titulo_chap_num",
+            "icon": "icons/components/icon_01_titulo_cap.svg",
+            "label": "Chapter Number",
             "properties": ["style"]
         },
         {
@@ -1904,19 +1910,13 @@
 
     "groups": [
     {
-        "label": "Imagens",
-        "name": "imagens",
+        "label": "Slideshow",
+        "name": "slideshow",
         "components": [
             "slideshow_por",
             "slideshow_ing",
             "slideshow_art",
-            "slideshow_mat",
-            "image",
-            "imagem_sem_margem",
-            "imagem_centralizada",
-            "imagem_coluna_falsa",
-            "imagem_meia_coluna",
-            "imagem_meia_coluna_container"
+            "slideshow_mat"
     ]
     },
     {
@@ -1924,20 +1924,7 @@
         "name": "containers",
         "components": [
             "container",
-            "container_boxe_abertura",
-            "container_coluna_falsa",
-            "container_exercicios",
-            "container_texto_citado",
-            "container_exercicio_texto_citado",
-            "container_boxe1",
-            "container_boxe1_dentro_de_boxe",
-            "container_leitura_complementar",
-            "container_ler_e_escutar",
-            "container_reading_and_writing",
-            "container_refletir_e_analisar",
-            "container_repertorio_cultural",
-            "container_saiba_mais",
-            "container_textos"
+            "container_boxe_abertura"
     ]
     },
 {
@@ -1957,6 +1944,7 @@
             "name": "aberturas_e_titulos",
             "components": [
                 "css_01_titulo_cap_num",
+                "css_01_titulo_chap_num",
                 "css_01_titulo_cap",
                 "css_01_titulo1",
                 "css_01_titulo2",

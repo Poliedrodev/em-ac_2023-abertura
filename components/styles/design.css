@@ -25,13 +25,13 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #dfdaea;
+  background-color: #d9f0ef;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch;
-  background-color: #dfdaea; }
+  background-color: #d9f0ef; }
   html :focus,
   body :focus {
     outline: none; }
@@ -113,7 +113,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #dfdaea; }
+      background-color: #d9f0ef; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;
@@ -1517,7 +1517,7 @@ span[style="text-decoration: line-through;"] {
           -webkit-transform: none !important;
           -webkit-flex-shrink: 0;
           flex-shrink: 0;
-          color: #96171a; }
+          color: #c9252c; }
     .slideshow_por .slideshow-container .arrow {
       width: 50px;
       height: 100px;
@@ -3005,31 +3005,35 @@ blockquote {
   .container_boxe_abertura input[type=checkbox] {
     display: none; }
   .container_boxe_abertura input[type=checkbox]:checked ~ label {
-    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat;
+    background: url(img/icons8-minus-close_white.png) left 0px top 9px no-repeat;
+    background-size: 18px;
     transition: all 0.25s ease-out; }
   .container_boxe_abertura input[type=checkbox]:checked ~ .doc_container {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_boxe_abertura input[type=checkbox]:checked ~ .line-box {
     display: block;
     transition: all 0.25s ease-out; }
   .container_boxe_abertura label {
     width: 100%;
     height: 40px;
-    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
-    position: relative;
-    background-size: 18px;
-    display: block;
-    left: -7px; }
+    background: url(img/icons8-plus-open_white.png) left 0px top 9px no-repeat;
+    position: absolute;
+    background-size: 18px; }
   .container_boxe_abertura .text-box {
     min-width: 200px;
     font-family: 'Nunito Sans';
     font-weight: 500;
     font-size: 17px;
     color: #62883b;
-    position: absolute;
-    left: 28px;
-    top: 8px; }
+    position: relative;
+    left: 21px;
+    top: 8px;
+    padding-bottom: 10px; }
   .container_boxe_abertura .line-box {
     border-left: 0px solid #FFF;
-    margin-left: 6px; }
+    margin-left: 7px;
+    display: none; }
   .container_boxe_abertura .doc_container {
     position: relative;
     padding: 16px;
@@ -3816,7 +3820,7 @@ blockquote {
   letter-spacing: -0.01em;
   line-height: 1em;
   font-size: 92px;
-  margin: 0px 68px 0px 68px;
+  margin: 0px 0px 0px 68px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_cap.artes {
     color: #3F1F71 !important; }
@@ -3909,6 +3913,7 @@ blockquote {
   font-family: 'Barlow Condensed';
   font-weight: 600;
   margin: 0px 68px 0px 68px;
+  letter-spacing: 0.5px;
   display: flex; }
   .css_01_titulo_cap_num.artes {
     color: #B9A9CB; }
@@ -3917,6 +3922,24 @@ blockquote {
   .css_01_titulo_cap_num.lingua_portuguesa {
     color: #E59798; }
   .css_01_titulo_cap_num.matematica {
+    color: #97B7D9; }
+
+.css_01_titulo_chap_num {
+  color: #E59798;
+  font-size: 30px;
+  z-index: 1;
+  font-family: 'Barlow Condensed';
+  font-weight: 600;
+  margin: 0px 68px 0px 68px;
+  letter-spacing: 0.5px;
+  display: flex; }
+  .css_01_titulo_chap_num.artes {
+    color: #B9A9CB; }
+  .css_01_titulo_chap_num.lingua_inglesa {
+    color: #8CCDD2; }
+  .css_01_titulo_chap_num.lingua_portuguesa {
+    color: #E59798; }
+  .css_01_titulo_chap_num.matematica {
     color: #97B7D9; }
 
 .css_01_titulo1 {
@@ -4087,7 +4110,7 @@ blockquote {
   .css_01_bullet_unid._right {
     float: right;
     clear: right;
-    width: 43%;
+    width: 44%;
     margin-left: 24px;
     z-index: 1; }
 
@@ -4780,7 +4803,7 @@ blockquote {
   color: #404040;
   font-family: montserrat;
   font-weight: 400;
-  margin: 0px 0px 24px 0px; }
+  margin: 0px 0px 24px 68px; }
 
 .css_05_fonte_mapa {
   display: block;

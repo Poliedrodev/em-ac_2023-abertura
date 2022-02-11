@@ -12,7 +12,8 @@
     }
 
     input[type=checkbox]:checked ~ label {
-        background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat;
+        background: url(img/icons8-minus-close_white.png) left 0px top 9px no-repeat;
+        background-size: 18px;
         transition: all 0.25s ease-out;
     }
 
@@ -20,15 +21,19 @@
         display: block;
         transition: all 0.25s ease-out;
     }
+    
+    input[type=checkbox]:checked ~ .line-box {
+        display: block;
+        transition: all 0.25s ease-out;
+    }
+
 
     label {
         width: 100%;
         height: 40px;
-        background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
-        position: relative;
+        background: url(img/icons8-plus-open_white.png) left 0px top 9px no-repeat;
+        position: absolute;
         background-size: 18px;
-        display: block;
-        left: -7px;
     }
 
     .text-box{
@@ -37,13 +42,15 @@
         font-weight: 500;
         font-size: 17px;
         color: #62883b;
-        position: absolute;
-        left: 28px;
+        position: relative;
+        left: 21px;
         top: 8px;
+        padding-bottom: 10px;
     }
     .line-box{
         border-left: 0px solid #FFF;
-        margin-left: 6px
+        margin-left: 7px;
+        display: none;
     }
 
     .doc_container {
