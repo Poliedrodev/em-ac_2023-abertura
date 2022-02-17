@@ -25,13 +25,13 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #dfdaea;
+  background-color: #f7dedf;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch;
-  background-color: #dfdaea; }
+  background-color: #f7dedf; }
   html :focus,
   body :focus {
     outline: none; }
@@ -113,7 +113,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #dfdaea; }
+      background-color: #f7dedf; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;
@@ -3814,97 +3814,39 @@ blockquote {
 
 .css_01_titulo_cap {
   display: block;
-  color: #45973D;
-  font-family: 'Barlow Condensed';
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 1em;
-  font-size: 92px;
-  margin: 0px 0px 0px 68px;
-  padding: 0px 0px 16px 0px; }
-  .css_01_titulo_cap.artes {
-    color: #3F1F71 !important; }
-    .css_01_titulo_cap.artes .line {
-      width: 215px;
-      height: 3px;
-      background-color: #000;
-      margin: 0px 68px 40px 68px; }
-      .css_01_titulo_cap.artes .line.artes {
-        background-color: #bfd730;
-        margin: 0px 68px 40px 68px; }
-      .css_01_titulo_cap.artes .line.lingua_inglesa {
-        background-color: #bfd730;
-        margin: 0px 68px 40px 68px; }
-      .css_01_titulo_cap.artes .line.lingua_portuguesa {
-        background-color: #bfd730;
-        margin: 0px 68px 40px 68px; }
-      .css_01_titulo_cap.artes .line.matematica {
-        background-color: #F1CB40;
-        margin: 0px 68px 40px 68px; }
-  .css_01_titulo_cap.lingua_inglesa {
-    color: #015F5B !important; }
-    .css_01_titulo_cap.lingua_inglesa .line.artes {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_inglesa .line.lingua_inglesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_inglesa .line.lingua_portuguesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_inglesa .line.matematica {
-      background-color: #F1CB40;
-      margin: 0px 68px 40px 68px; }
-  .css_01_titulo_cap.lingua_portuguesa {
-    color: #96171a !important; }
-    .css_01_titulo_cap.lingua_portuguesa .line.artes {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_portuguesa .line.lingua_inglesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_portuguesa .line.lingua_portuguesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.lingua_portuguesa .line.matematica {
-      background-color: #F1CB40;
-      margin: 0px 68px 40px 68px; }
-  .css_01_titulo_cap.matematica {
-    color: #033878 !important; }
-    .css_01_titulo_cap.matematica .line.artes {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.matematica .line.lingua_inglesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.matematica .line.lingua_portuguesa {
-      background-color: #bfd730;
-      margin: 0px 68px 40px 68px; }
-    .css_01_titulo_cap.matematica .line.matematica {
-      background-color: #F1CB40;
-      margin: 0px 68px 40px 68px; }
-
-.line {
-  width: 215px;
-  height: 3px;
-  background-color: #000;
-  margin-left: 68px; }
-  .line.artes {
-    color: #3F1F71 !important;
-    background-color: #bfd730;
+  position: relative; }
+  .css_01_titulo_cap.artes .line {
+    background-color: #bfd730; }
+  .css_01_titulo_cap.artes .text {
+    color: #3F1F71; }
+  .css_01_titulo_cap.lingua_inglesa .line {
+    background-color: #bfd730; }
+  .css_01_titulo_cap.lingua_inglesa .text {
+    color: #015F5B; }
+  .css_01_titulo_cap.lingua_portuguesa .line {
+    background-color: #bfd730; }
+  .css_01_titulo_cap.lingua_portuguesa .text {
+    color: #96171a; }
+  .css_01_titulo_cap.matematica .line {
+    background-color: #F1CB40; }
+  .css_01_titulo_cap.matematica .text {
+    color: #033878; }
+  .css_01_titulo_cap .line {
+    width: 215px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -25px;
     margin: 0px 68px 40px 68px; }
-  .line.lingua_inglesa {
-    color: #015F5B !important;
-    background-color: #bfd730;
-    margin: 0px 68px 40px 68px; }
-  .line.lingua_portuguesa {
-    color: #96171a !important;
-    background-color: #bfd730;
-    margin: 0px 68px 40px 68px; }
-  .line.matematica {
-    color: #033878 !important;
-    background-color: #F1CB40;
-    margin: 0px 68px 40px 68px; }
+  .css_01_titulo_cap .text {
+    color: #45973D;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1em;
+    font-size: 92px;
+    margin: 0px 0px 0px 68px;
+    padding: 0px 0px 16px 0px; }
 
 .css_01_titulo_cap_num {
   color: #E59798;
