@@ -1946,10 +1946,6 @@
                 "css_01_titulo_cap_num",
                 "css_01_titulo_chap_num",
                 "css_01_titulo_cap",
-                "css_01_titulo1",
-                "css_01_titulo2",
-                "css_01_titulo3",
-                "css_01_titulo4",
                 "css_01_texto_unid",
                 "css_01_texto_unid_bullet",
                 "css_01_bullet_unid"
@@ -1959,22 +1955,8 @@
             "label": "02 Texto geral",
             "name": "texto_geral",
             "components": [
-                "css_02_texto_geral1",
-                "css_02_texto_geral2",
-                "css_02_texto_geral3",
-                "css_02_texto_bullet",
-                "css_02_texto_bullet_mancha_sub",
-                "css_02_texto_item",
-                "css_02_texto_definicao",
-                "css_02_texto_definicao_30",
-                "css_02_texto_definicao_60",
                 "css_02_texto_destaque",
                 "css_02_texto_destaque2",
-                "css_02_texto_manuscrito",
-                "css_02_texto_citado_titulo",
-                "css_02_texto_citado",
-                "css_02_texto_citado_fonte",
-                "css_02_texto_glossario_titulo",
                 "css_02_texto_glossario",
                 "css_02_texto_vocabulario"
             ]
@@ -2631,7 +2613,13 @@
             "css_00_multimidia": "auto",
             "css_00_licenciamento_texto_terceiro": "auto",
             "css_00_ilustracao": "auto"
-        },        
+        },
+        "css_01_texto_unid": {
+            "css_01_texto_unid_bullet": "auto"
+        },
+        "css_01_texto_unid_bullet": {
+            "css_01_texto_unid": "auto"
+        },
         "css_03_exercicio_enunciado": {
             "css_03_numero": "auto",
             "css_03_numero_alinh_alter": "auto",
