@@ -30,6 +30,44 @@
             }
         },
         {
+            "name": "trigger_popup",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "trigger_popup",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "image_popup",
+            "icon": "icons/components/image.svg",
+            "label": "COMPONENTE_POPUP",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ]
+        },
+        {
+            "name": "image_popup_center",
+            "icon": "icons/components/image.svg",
+            "label": "COMPONENTE_POPUP_CENTER",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ]
+        },
+        {
             "name": "imagem_boxe_exercicio",
             "icon": "icons/components/image.svg",
             "label": "Imagem Boxe Exercício",
@@ -1924,7 +1962,10 @@
         "name": "containers",
         "components": [
             "container",
-            "container_boxe_abertura"
+            "container_boxe_abertura",
+            "trigger_popup",
+            "image_popup",
+            "image_popup_center"
     ]
     },
 {
