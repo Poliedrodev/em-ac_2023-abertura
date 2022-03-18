@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-por",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -32,13 +32,13 @@
         {
             "name": "trigger_popup",
             "icon": "icons/components/icon_00_arte.svg",
-            "label": "trigger_popup",
+            "label": "Botão Questão Disparadora",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "image_popup",
             "icon": "icons/components/image.svg",
-            "label": "COMPONENTE_POPUP",
+            "label": "Questão Disparadora",
             "properties": [
                 { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
                 "position",
