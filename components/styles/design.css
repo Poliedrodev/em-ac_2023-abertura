@@ -24,7 +24,7 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #f7dedf;
+  background-color: #d0e1f0;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
@@ -111,7 +111,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #f7dedf; }
+      background-color: #d0e1f0; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;

@@ -1,5 +1,5 @@
 {
-    "name": "default-components-por",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
