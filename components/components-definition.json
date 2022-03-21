@@ -567,6 +567,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_boxe_abertura_sem_recuo",
+            "icon": "icons/components/container.svg",
+            "label": "Boxe Habilidades Sem Recuo",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_boxe1_dentro_de_boxe",
             "icon": "icons/components/container.svg",
             "label": "Container Boxe 1 dentro de boxe",
@@ -1963,6 +1969,7 @@
         "components": [
             "container",
             "container_boxe_abertura",
+            "container_boxe_abertura_sem_recuo",
             "trigger_popup",
             "image_popup",
             "image_popup_center"
