@@ -248,6 +248,61 @@ span[style="text-decoration: line-through;"] {
         margin-left: 24px;
         z-index: 1; } }
 
+.audio {
+  position: relative;
+  width: 360px;
+  margin: 50px 0;
+  float: left;
+  transition: all .3s;
+  border: 5px solid #abd16f;
+  border-radius: 4px;
+  min-height: 200px;
+  padding: 10px 20px;
+  box-sizing: border-box; }
+  .audio .none {
+    display: none !important; }
+  .audio audio {
+    display: none; }
+  .audio__image {
+    background-image: url("img/barra-audio.png");
+    width: 224px;
+    height: 54px;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    margin: 0 auto; }
+  .audio__url {
+    border: 1px solid #ccc;
+    padding: 2px;
+    overflow: hidden;
+    height: 19px;
+    word-break: break-all; }
+  .audio__title {
+    color: #a7050d;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px; }
+  .audio__text {
+    color: #666; }
+  .audio .icon_player {
+    background: url(img/play-button.png) no-repeat #fff center;
+    position: absolute;
+    bottom: -14px;
+    width: 34px;
+    height: 24px;
+    cursor: pointer; }
+    .audio .icon_player.icon_pause {
+      background: url(img/pause-button.png) no-repeat #fff center; }
+  .audio .icon_stop {
+    background: url(img/stop-button.png) no-repeat #fff center;
+    position: absolute;
+    left: 61px;
+    bottom: -14px;
+    width: 34px;
+    height: 24px;
+    cursor: pointer; }
+
 .trigger_popup {
   width: 100px;
   height: 100px;

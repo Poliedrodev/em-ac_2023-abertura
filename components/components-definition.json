@@ -30,6 +30,12 @@
             }
         },
         {
+            "name": "audio",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "trigger_popup",
             "icon": "icons/components/icon_00_arte.svg",
             "label": "Botão Questão Disparadora",
@@ -65,6 +71,22 @@
                 "line-height",
                 { "name": "edit-image", "directiveKey": "image" },
                 { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ]
+        },
+        {
+            "name": "video_popup_center",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER",
+            "selectionMethod": "handle",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" }
             ]
         },
         {
@@ -1972,7 +1994,9 @@
             "container_boxe_abertura_sem_recuo",
             "trigger_popup",
             "image_popup",
-            "image_popup_center"
+            "image_popup_center",
+            "video_popup_center",
+            "audio"
     ]
     },
 {
