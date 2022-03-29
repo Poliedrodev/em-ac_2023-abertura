@@ -514,6 +514,110 @@ span[style="text-decoration: line-through;"] {
       position: absolute;
       top: -30px; }
 
+.doc-section [doc-editable]:empty {
+  background: transparent !important; }
+
+.none {
+  display: none !important; }
+
+/* Image component style */
+.video_popup_center {
+  position: relative;
+  width: 360px;
+  margin: 50px 0;
+  float: left;
+  transition: all .3s;
+  border: 5px solid #c6dc49;
+  border-radius: 4px;
+  cursor: pointer; }
+  .video_popup_center:before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 15px;
+    background-color: #a30000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%; }
+  .video_popup_center.__ready .video_popup__content .content-video__url {
+    border: 0; }
+  .video_popup_center.__ready .video_popup__content .content-video__title {
+    border: 0; }
+  .video_popup_center.__ready .video_popup__content .content-video__text {
+    border: 0; }
+  .video_popup_center.popup_actived {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000bf;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    border: 0;
+    z-index: 9; }
+    .video_popup_center.popup_actived:before {
+      content: none; }
+    .video_popup_center.popup_actived .video_popup__content {
+      width: 60%;
+      margin: 0 auto;
+      height: 100%;
+      padding: 5%;
+      box-sizing: border-box; }
+      .video_popup_center.popup_actived .video_popup__content a {
+        display: block; }
+      .video_popup_center.popup_actived .video_popup__content .video_popup__img, .video_popup_center.popup_actived .video_popup__content .content-video {
+        display: none !important; }
+      .video_popup_center.popup_actived .video_popup__content #playerYoutube.show {
+        display: block !important; }
+      .video_popup_center.popup_actived .video_popup__content #playerDefault.show {
+        display: block !important; }
+  .video_popup_center .video_popup__content a {
+    width: 25px;
+    height: 25px;
+    display: none;
+    background-image: url("img/btn-modal-close.png");
+    position: absolute;
+    z-index: 9;
+    right: 20px;
+    top: 15px; }
+  .video_popup_center .video_popup__content .video_popup__img {
+    position: relative;
+    height: 190px !important;
+    padding: 0 !important;
+    background-size: cover; }
+  .video_popup_center .video_popup__content .content-video {
+    padding: 20px; }
+    .video_popup_center .video_popup__content .content-video__url {
+      padding: 2px;
+      overflow: hidden;
+      height: 19px;
+      word-break: break-all;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center .video_popup__content .content-video__title {
+      color: #a7050d;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center .video_popup__content .content-video__text {
+      border: 1px solid #ccc; }
+      .video_popup_center .video_popup__content .content-video__text span {
+        color: #666 !important; }
+  .video_popup_center .video_popup__content #playerDefault, .video_popup_center .video_popup__content #playerYoutube {
+    display: none; }
+  .video_popup_center .video_popup__content #playerDefault {
+    width: 100%; }
+
 /* Image component style */
 .imagem_boxe_exercicio {
   clear: both;
@@ -4538,7 +4642,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 22px;
   display: block;
-  margin: 24px 0px 16px 0px; }
+  margin: 24px 0px 16px 70px; }
 
 .css_02_texto_citado {
   display: block;
@@ -4547,7 +4651,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 15px 0px 15px; }
+  margin: 8px 15px 0px 70px; }
 
 .css_02_texto_citado_fonte {
   display: block;
