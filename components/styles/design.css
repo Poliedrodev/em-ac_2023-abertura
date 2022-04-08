@@ -24,7 +24,7 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #d9f0ef;
+  background-color: #dfdaea;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
@@ -111,7 +111,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d9f0ef; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 100%;
         padding: 0 5px;
@@ -575,24 +575,32 @@ span[style="text-decoration: line-through;"] {
       color: #64428C; }
     .video_popup_center.artes:before {
       background-image: url(img/play-button-lin.png); }
+    .video_popup_center.artes .video_popup_center.popup_actived {
+      background-color: #452848bf; }
   .video_popup_center.lingua_inglesa {
     border: 5px solid #bfd730; }
     .video_popup_center.lingua_inglesa .video_popup__content .content-video__title {
       color: #069891; }
     .video_popup_center.lingua_inglesa:before {
       background-image: url(img/play-button-ing.png); }
+    .video_popup_center.lingua_inglesa .video_popup_center.popup_actived {
+      background-color: #284847bf; }
   .video_popup_center.lingua_portuguesa {
     border: 5px solid #bfd730; }
     .video_popup_center.lingua_portuguesa .video_popup__content .content-video__title {
       color: #c9252c; }
     .video_popup_center.lingua_portuguesa:before {
       background-image: url(img/play-button.png); }
+    .video_popup_center.lingua_portuguesa .video_popup_center.popup_actived {
+      background-color: #482828bf; }
   .video_popup_center.matematica {
     border: 5px solid #F1CB40; }
     .video_popup_center.matematica .video_popup__content .content-video__title {
       color: #1961AC; }
     .video_popup_center.matematica:before {
       background-image: url(img/play-button-mat.png); }
+    .video_popup_center.matematica .video_popup_center.popup_actived {
+      background-color: #282f48bf; }
   .video_popup_center:before {
     content: '';
     position: absolute;
