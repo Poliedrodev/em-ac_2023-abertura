@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-ing",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -1994,7 +1994,13 @@
             "container_boxe_abertura_sem_recuo",
             "trigger_popup",
             "image_popup",
-            "image_popup_center",
+            "image_popup_center"
+    ]
+    },
+    {
+        "label": "Outros Assets",
+        "name": "outros_assets",
+        "components": [
             "video_popup_center",
             "audio"
     ]
