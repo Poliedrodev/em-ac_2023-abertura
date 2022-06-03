@@ -36,6 +36,22 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "audio_lumen_mais",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio Lumen Mais",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                  }
+            ]
+        },
+        
+        {
             "name": "trigger_popup",
             "icon": "icons/components/icon_00_arte.svg",
             "label": "Botão Questão Disparadora",
@@ -89,6 +105,40 @@
                 { "name": "edit-image", "directiveKey": "image" }
             ]
         },
+        {
+            "name": "video_popup_center_lumen_mais",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
+            "selectionMethod": "handle",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-to-content"
+        },
+        "position",
+        "style",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        },
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+
+    {
+        "name": "background",
+        "icon": "icons/components/container.svg",
+        "selectionMethod": "handle",
+        "allowNesting": "one-level",
+        "label": "Background Livro",
+        "properties": [
+          "style_lumen_mais"
+        ]
+      },
+
         {
             "name": "imagem_boxe_exercicio",
             "icon": "icons/components/image.svg",
@@ -1989,6 +2039,7 @@
         "label": "Containers",
         "name": "containers",
         "components": [
+            "background",
             "container",
             "container_boxe_abertura",
             "container_boxe_abertura_sem_recuo",
@@ -2002,7 +2053,9 @@
         "name": "outros_assets",
         "components": [
             "video_popup_center",
-            "audio"
+            "video_popup_center_lumen_mais",
+            "audio",
+            "audio_lumen_mais"
     ]
     },
 {
@@ -2340,6 +2393,87 @@
         {
             "name": "drop-capital",
             "label": { "key": "PROPERTY_DROP_CAP_LABEL" },
+            "control": {
+                "type": "drop-capital",
+                "charactersMinimum": 1,
+                "charactersDefault": 1,
+                "charactersMaximum": 10,
+                "linesMinimum": 1,
+                "linesDefault": 3,
+                "linesMaximum": 10
+            },
+            "dataType": "data",
+            "featureFlag": "ContentStation-LocalStyleOverrides"
+        },
+        {
+            "name": "style_lumen_mais",
+            "label": {
+              "key": "PROPERTY_VARIANT_LABEL"
+            },
+            "control": {
+              "type": "select",
+              "options": [
+                {
+                  "caption": {
+                    "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+                  }
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Artes"
+                    }
+                  },
+                  "value": "artes"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Língua Inglesa"
+                    }
+                  },
+                  "value": "lingua_inglesa"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Língua Portuguesa"
+                    }
+                  },
+                  "value": "lingua_portuguesa"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Matemática"
+                    }
+                  },
+                  "value": "matematica"
+                }
+              ]
+            },
+            "dataType": "styles"
+          },
+        {
+            "name": "fixed-background",
+            "label": {
+                "key": "PROPERTY_FIXED_BACKGROUND_LABEL"
+            },
+            "control": {
+                "type": "checkbox",
+                "value": "_fixed-background"
+            },
+            "dataType": "styles"
+        },
+        {
+            "name": "drop-capital",
+            "label": {
+                "key": "PROPERTY_DROP_CAP_LABEL"
+            },
             "control": {
                 "type": "drop-capital",
                 "charactersMinimum": 1,
