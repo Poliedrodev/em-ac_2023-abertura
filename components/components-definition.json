@@ -1,5 +1,5 @@
 {
-    "name": "em_ac_2023_abertura_art",
+    "name": "template_lumen_mais_2023_abertura",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -660,7 +660,7 @@
             "name": "container",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
+            "allowNesting": "yes",
             "label": {
                 "key": "COMPONENT_CONTAINER_LABEL"
             },
@@ -3281,7 +3281,7 @@
             "name": "slideshow_2_images",
             "icon": "icons/components/slideshow.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
+            "allowNesting": "yes",
             "label": "Slideshow 2 Imagens(Novo)",
             "properties": [
                 "style",
@@ -3309,7 +3309,7 @@
             "name": "slideshow_3_images",
             "icon": "icons/components/slideshow.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
+            "allowNesting": "yes",
             "label": "Slideshow 3 Imagens(Novo)",
             "properties": [
                 "style",
@@ -3337,7 +3337,7 @@
             "name": "slideshow_4_images",
             "icon": "icons/components/slideshow.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
+            "allowNesting": "yes",
             "label": "Slideshow 4 Imagens(Novo)",
             "properties": [
                 "style",
@@ -3382,8 +3382,8 @@
             "name": "background",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
-            "label": "Background Abertura",
+            "allowNesting": "yes",
+            "label": "Background",
             "properties": [
                 "style"
             ]
@@ -3428,13 +3428,9 @@
     ],
     "groups": [
         {
-            "label": "Slideshow",
-            "name": "slideshow",
+            "label": "Imagens",
+            "name": "Imagens",
             "components": [
-                "slideshow_por",
-                "slideshow_ing",
-                "slideshow_art",
-                "slideshow_mat",
                 "slideshow_2_images",
                 "slideshow_3_images",
                 "slideshow_4_images"
@@ -3448,10 +3444,7 @@
                 "container",
                 "container_boxe_abertura",
                 "container_boxe_abertura_sem_recuo",
-                "trigger_popup",
-                "trigger_popup2",
-                "image_popup",
-                "image_popup_center"
+                "trigger_popup2"
             ]
         },
         {
