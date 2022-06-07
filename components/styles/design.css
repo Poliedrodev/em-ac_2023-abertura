@@ -18,8 +18,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
 /* Article view style */
+.body,
 html,
-body {
+body,
+.body-book {
   padding: 0;
   margin: 0;
   font: 14px "Lato";
@@ -30,17 +32,21 @@ body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch; }
+  .body :focus,
   html :focus,
-  body :focus {
+  body :focus,
+  .body-book :focus {
     outline: none; }
 
-body {
+body,
+.body-book {
   max-width: 100%;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden; }
-  body::after {
+  body::after,
+  .body-book::after {
     content: ' ';
     display: block;
     clear: both; }
@@ -122,7 +128,8 @@ span[data-text-edit-color] a {
           content: ' ';
           display: block;
           clear: both; }
-  .hero-js.hero-js-android body {
+  .hero-js.hero-js-android body,
+  .hero-js.hero-js-android .body-book {
     max-width: none; }
   .hero-js.hero-js-android ._hero-bg-box {
     position: fixed; }
@@ -466,6 +473,116 @@ span[style="text-decoration: line-through;"] {
         box-sizing: border-box;
         position: absolute;
         top: 90px; }
+
+/* Modal */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*      background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/83647.png);
+  background-repeat: no-repeat;
+  background-position: center center; 
+  z-index: 10;
+  */
+  top: 160px;
+  left: 0px;
+  display: none;
+  z-index: 11; }
+
+.checkbox-modal {
+  display: none; }
+
+#modalInitial:checked + .modal {
+  display: block; }
+
+.open-modal {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_por.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 69px;
+  cursor: pointer;
+  position: absolute;
+  margin-right: 7px;
+  margin-top: 12px; }
+  .open-modal.artes {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_lin.png); }
+    .open-modal.artes .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_lin_qd.png); }
+  .open-modal.lingua_portuguesa {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_por.png); }
+  .open-modal.lingua_inglesa {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/play_ing.png); }
+    .open-modal.lingua_inglesa .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_ing_qd.png); }
+  .open-modal.matematica {
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/iniciar_mat.png); }
+    .open-modal.matematica .modal .content-modal {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_mat_qd.png); }
+
+.modal .close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+
+.modal .close-modal:hover {
+  cursor: pointer;
+  opacity: 0.8; }
+
+.modal .content-modal {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://livro-digital.p4ed.com/assets/icons/lumen/background_por_qd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 20; }
+
+.close-modal {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  width: 25px;
+  height: 25px;
+  background-image: url("https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_lpo_cap1_abertura_dig/btn-modal-close.png");
+  display: block;
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  right: 20px; }
+
+.image_modal {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 90%;
+  padding: 0;
+  overflow: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 72px; }
+
+.image_modal__text {
+  margin: 0;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 95%;
+  color: #bfd730;
+  font-size: 50px;
+  position: initial;
+  z-index: 25; }
+
+.image_modal__text2 {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  width: 95%;
+  color: #ffffff;
+  font-size: 72px;
+  position: relative;
+  z-index: 25; }
 
 /* Image component style */
 .image_popup_center {
@@ -10595,3 +10712,1033 @@ blockquote {
   color: #000;
   font-family: "Proxima Nova Lt" !important;
   margin: 16px 0px 16px 0px; }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  height: 600px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.flex-direction-collumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; }
+
+.CSSgal .carroussel-box {
+  /*   height: 700px; */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.5);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.CSSgal .carroussel-box {
+  /*   height: 700px; */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.CSSgal .carroussel-box {
+  /*     height: 700px;
+ */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+.slider-border-section {
+  padding: 2px;
+  border-bottom: 2px solid #707070; }
+
+.body-book.artes {
+  background-color: #dfdaea;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_inglesa {
+  background-color: #d9f0ef;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_portuguesa {
+  background-color: #f7dedf;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.matematica {
+  background-color: #d0e1f0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.audio_lumen_mais {
+  position: relative;
+  width: 84%;
+  margin: 32px 68px 20px 68px;
+  transition: all .3s;
+  border: 5px solid #bfd730;
+  background-color: #fff;
+  border-radius: 4px;
+  min-height: 104px;
+  padding: 16px 20px;
+  box-sizing: border-box; }
+  .audio_lumen_mais .audio-box audio {
+    background-color: #f1f3f4;
+    width: 100%; }
+  .audio_lumen_mais.artes {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.artes .audio__title {
+      color: #64428C; }
+  .audio_lumen_mais.lingua_inglesa {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.lingua_inglesa .audio__title {
+      color: #069891; }
+  .audio_lumen_mais.lingua_portuguesa {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.lingua_portuguesa .audio__title {
+      color: #c9252c; }
+  .audio_lumen_mais.matematica {
+    border: 5px solid #F1CB40; }
+    .audio_lumen_mais.matematica .audio__title {
+      color: #1961AC; }
+  .audio_lumen_mais .none {
+    display: none !important; }
+  .audio_lumen_mais__url {
+    border: 1px solid #ccc;
+    padding: 2px;
+    overflow: hidden;
+    height: 19px;
+    word-break: break-all; }
+  .audio_lumen_mais__title {
+    color: #c9252c;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin-bottom: 2px; }
+  .audio_lumen_mais__text {
+    color: #666;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 300; }
+
+/* Video component style */
+.doc-section [doc-editable]:empty {
+  background: transparent !important; }
+
+.none {
+  display: none !important; }
+
+/* Image component style */
+.video_popup_center_lumen_mais {
+  position: relative;
+  width: 83%;
+  margin: 32px 68px 20px 68px;
+  display: block;
+  background-color: #fff;
+  transition: all .3s;
+  border: 5px solid #bfd730;
+  border-radius: 4px;
+  cursor: pointer; }
+  .video_popup_center_lumen_mais.artes {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.artes .video_popup__content .content-video__title {
+      color: #64428C; }
+    .video_popup_center_lumen_mais.artes:before {
+      background-image: url(img/play-button-lin.png); }
+    .video_popup_center_lumen_mais.artes .video_popup_center.popup_actived {
+      background-color: #452848bf; }
+  .video_popup_center_lumen_mais.lingua_inglesa {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.lingua_inglesa .video_popup__content .content-video__title {
+      color: #069891; }
+    .video_popup_center_lumen_mais.lingua_inglesa:before {
+      background-image: url(img/play-button-ing.png); }
+    .video_popup_center_lumen_mais.lingua_inglesa .video_popup_center.popup_actived {
+      background-color: #284847bf; }
+  .video_popup_center_lumen_mais.lingua_portuguesa {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup__content .content-video__title {
+      color: #c9252c; }
+    .video_popup_center_lumen_mais.lingua_portuguesa:before {
+      background-image: url(img/play-button.png); }
+    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup_center.popup_actived {
+      background-color: #482828bf; }
+  .video_popup_center_lumen_mais.matematica {
+    border: 5px solid #F1CB40; }
+    .video_popup_center_lumen_mais.matematica .video_popup__content .content-video__title {
+      color: #1961AC; }
+    .video_popup_center_lumen_mais.matematica:before {
+      background-image: url(img/play-button-mat.png); }
+    .video_popup_center_lumen_mais.matematica .video_popup_center.popup_actived {
+      background-color: #282f48bf; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__url {
+    border: 0; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__title {
+    border: 0; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__text {
+    border: 0; }
+  .video_popup_center_lumen_mais.popup_actived {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000bf;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    border: 0;
+    z-index: 9; }
+    .video_popup_center_lumen_mais.popup_actived:before {
+      content: none; }
+    .video_popup_center_lumen_mais.popup_actived .video_popup__content {
+      width: 60%;
+      margin: 0 auto;
+      height: 100%;
+      padding: 5%;
+      box-sizing: border-box; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content a {
+        display: block; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content .video_popup__img,
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content .content-video {
+        display: none !important; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerYoutube.show {
+        display: block !important; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerDefault.show {
+        display: block !important; }
+  .video_popup_center_lumen_mais .video_popup__content a {
+    width: 25px;
+    height: 25px;
+    display: none;
+    background-image: url("img/btn-modal-close.png");
+    position: absolute;
+    z-index: 9;
+    right: 20px;
+    top: 15px; }
+  .video_popup_center_lumen_mais .video_popup__content .video_popup__img {
+    position: relative;
+    height: 280px !important;
+    padding: 0 !important;
+    background-size: cover; }
+  .video_popup_center_lumen_mais .video_popup__content .content-video {
+    padding: 20px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__url {
+      padding: 2px;
+      overflow: hidden;
+      height: 19px;
+      word-break: break-all;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__title {
+      color: #c9252c;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__text {
+      border: 1px solid #ccc;
+      color: #666;
+      font-size: 14px;
+      font-family: 'Montserrat';
+      font-weight: 300; }
+      .video_popup_center_lumen_mais .video_popup__content .content-video__text span {
+        color: #666 !important; }
+  .video_popup_center_lumen_mais .video_popup__content #playerDefault,
+  .video_popup_center_lumen_mais .video_popup__content #playerYoutube {
+    display: none; }
+  .video_popup_center_lumen_mais .video_popup__content #playerDefault {
+    width: 100%; }

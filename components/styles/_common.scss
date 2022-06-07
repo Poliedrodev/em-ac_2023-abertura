@@ -50,9 +50,10 @@ $font-cookie-google: 'cookie';
 $font-theSerif-hp6: 'TheSerif-HP6SeBld' !important;
 $font-TheSerif-hp2: 'TheSerif-HP2ExLig';
 $font-ptSans: 'Pt Sans';
-$font-proximaNova-black:'proxima_novablack';
-$font-proximaNova-bold:'proxima_novabold';
-$font-prelo-book:'prelo-book';
+$font-proximaNova-black: 'proxima_novablack';
+$font-proximaNova-bold: 'proxima_novabold';
+$font-prelo-book: 'prelo-book';
+$font-montserrat: 'Montserrat', sans-serif;
 $font-montserrat-regular: 'montserrat regular', '400';
 $font-montserrat-bold: 'montserrat bold', '700';
 $font-montserrat-extrabold: 'montserrat extrabold', '800';
@@ -66,6 +67,7 @@ $font-barlow-condensed-bold: 'barlow condensed', '700';
     display: -webkit-flex;
     display: flex;
 }
+
 @mixin webkit-prefix($property, $value) {
     -webkit-#{$property}: $value;
     #{$property}: $value;
@@ -81,9 +83,12 @@ $font-barlow-condensed-bold: 'barlow condensed', '700';
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
+
 /* Article view style */
+.body,
 html,
-body {
+body,
+.body-book {
     padding: 0;
     margin: 0;
     font: $defaultFontSize $fontName;
@@ -94,17 +99,20 @@ body {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-overflow-scrolling: touch;
+
     :focus {
         outline: none;
     }
 }
 
-body {
+body,
+.body-book {
     max-width: $max-width;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+
     &::after {
         content: ' ';
         display: block;
@@ -133,6 +141,7 @@ span[data-text-edit-color] {
 ._align-right {
     text-align: right;
 }
+
 ._align-middle {
     text-align: center;
 }
@@ -151,9 +160,11 @@ span[data-text-edit-color] {
  */
 .hero-js {
     height: 100%;
+
     body {
         height: 100%;
     }
+
     ._hero-bg-box {
         position: absolute;
         top: 0;
@@ -162,6 +173,7 @@ span[data-text-edit-color] {
         left: 0;
         pointer-events: none;
         overflow: hidden;
+
         ._hero-bg-item {
             position: absolute;
             top: 0;
@@ -175,11 +187,13 @@ span[data-text-edit-color] {
             transition-property: opacity;
             transition-timing-function: linear;
             transition-duration: $speed * 2;
+
             &._current {
                 opacity: 1;
             }
         }
     }
+
     ._hero-content-box {
         position: absolute;
         top: 0;
@@ -188,14 +202,17 @@ span[data-text-edit-color] {
         left: 0;
         overflow-x: hidden;
         overflow-y: auto;
+
         ._hero-content-wrapper {
             background-color: $bodyBackground;
+
             ._hero-content-body {
                 max-width: $max-width;
                 padding: 0 5px;
                 margin-left: auto;
                 margin-right: auto;
                 overflow-x: hidden;
+
                 &::after {
                     content: ' ';
                     display: block;
@@ -204,13 +221,18 @@ span[data-text-edit-color] {
             }
         }
     }
+
     &.hero-js-android {
-        body {
+
+        body,
+        .body-book {
             max-width: none;
         }
+
         ._hero-bg-box {
             position: fixed;
         }
+
         ._hero-content-box {
             position: relative;
             margin: 0 -5px;
@@ -227,9 +249,11 @@ span[data-text-edit-color] {
     0% {
         opacity: 0.2;
     }
+
     20% {
         opacity: 1;
     }
+
     100% {
         opacity: 0.2;
     }
@@ -244,6 +268,7 @@ span[data-text-edit-color] {
  }
  */
 @mixin triple-blinking-spans() {
+
     // blink the dots after the label
     span {
         animation-name: kf-triple-blinking-spans;
@@ -251,9 +276,11 @@ span[data-text-edit-color] {
         animation-iteration-count: infinite;
         animation-fill-mode: both;
     }
+
     span:nth-child(2) {
         animation-delay: 0.2s;
     }
+
     span:nth-child(3) {
         animation-delay: 0.4s;
     }
@@ -269,6 +296,7 @@ span[style="text-decoration: line-through;"] {
  Additional styles for .social and .video components
  */
 @mixin media-component-states() {
+
     &.loading,
     &.error {
         font-weight: 300;
@@ -277,23 +305,26 @@ span[style="text-decoration: line-through;"] {
         line-height: 1.6;
         padding: 0.5em;
     }
+
     &.loading {
         color: #888888;
         background-color: rgb(252, 252, 252);
         text-transform: lowercase;
 
         @include triple-blinking-spans();
+
         span {
             padding-left: 0.2em;
             font-weight: bold;
             color: $textColor;
         }
     }
+
     &.error {
         background-color: rgba(169, 68, 66, 0.05);
         color: rgba(169, 68, 66, 0.8);
 
-        > div {
+        >div {
             display: flex;
             -webkit-flex-flow: row nowrap;
             flex-flow: row nowrap;
@@ -308,7 +339,7 @@ span[style="text-decoration: line-through;"] {
                 padding: 0 40px 0 40px;
             }
 
-            > div:last-child {
+            >div:last-child {
                 display: inline-block;
                 flex: 1 100%;
             }
