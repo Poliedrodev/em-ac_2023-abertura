@@ -5,21 +5,24 @@
   line-height: 1.5em;
   color: #000000;
   display: block;
-  margin: 24px 250px 24px 68px;
+  margin: 24px 0px 24px 0px;
   padding: 8px 16px;
   border: solid 2px #000000;
 
   &.artes {
-    border: solid 2px $seg_lin_cor1 !important;
+    border: solid 2px $seg_lin_cor1  !important;
   }
+
   &.lingua_inglesa {
-    border: solid 2px $seg_lin_cor1 !important;
+    border: solid 2px $seg_lin_cor1  !important;
   }
+
   &.lingua_portuguesa {
-    border: solid 2px $seg_lin_cor1 !important;
+    border: solid 2px $seg_lin_cor1  !important;
   }
+
   &.matematica {
-    border: solid 2px $seg_mat_cor1 !important;
+    border: solid 2px $seg_mat_cor1  !important;
   }
 
 }

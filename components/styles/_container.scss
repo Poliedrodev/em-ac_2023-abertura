@@ -9,34 +9,40 @@
         display: block;
         clear: both;
     }
-    > * {
+
+    >* {
         &:first-child {
             margin-top: 0;
+
             &._left {
-                + ._right {
+                +._right {
                     margin-top: 0;
                     padding: 0 68 0 16px;
                 }
             }
+
             &._right {
-                + ._left {
+                +._left {
                     margin-top: 0;
                     padding: 0 16 0 68px;
                 }
             }
         }
+
         &:last-child {
             margin-bottom: 0;
         }
+
         &._left {
-            + ._right:last-child {
+            +._right:last-child {
                 margin-bottom: 20px;
                 padding: 0 68 0 16px;
-    height: 100%;
+                height: 100%;
             }
         }
+
         &._right {
-            + ._left:last-child {
+            +._left:last-child {
                 margin-bottom: 20px;
                 padding: 0 16 0 68px;
             }
@@ -53,6 +59,7 @@
             z-index: 1;
             height: 100%;
         }
+
         &._right {
             float: right;
             clear: right;

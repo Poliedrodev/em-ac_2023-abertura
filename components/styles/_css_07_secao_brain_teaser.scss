@@ -1,7 +1,7 @@
 .css_07_secao_brain_teaser {
     height: 44px;
     background: #BD8432;
-    margin: 48px 68px 32px 68px;
+    margin: 48px 0px 32px 0px;
     line-height: 44px;
     padding: 0 47px;
     font-family: "Prelo ExtraBold";
@@ -28,6 +28,7 @@
             background-color: #c8d300;
         }
     }
+
     &.biologia {
         background-color: #BD8432;
 
@@ -35,6 +36,7 @@
             background-color: #f7a941;
         }
     }
+
     &.filosofia {
         background-color: #208F6D;
 
@@ -42,6 +44,7 @@
             background-color: #8ccaae;
         }
     }
+
     &.fisica {
         background-color: #BD8432;
 
@@ -49,6 +52,7 @@
             background-color: #f7a941;
         }
     }
+
     &.geografia {
         background-color: #208F6D;
 
@@ -56,6 +60,7 @@
             background-color: #8ccaae;
         }
     }
+
     &.historia {
         background-color: #208F6D;
 
@@ -63,6 +68,7 @@
             background-color: #8ccaae;
         }
     }
+
     &.lingua_inglesa {
         background-color: #84A214;
 
@@ -70,6 +76,7 @@
             background-color: #c8d300;
         }
     }
+
     &.lingua_portuguesa {
         background-color: #84A214;
 
@@ -77,6 +84,7 @@
             background-color: #c8d300;
         }
     }
+
     &.matematica {
         background-color: #C09100;
 
@@ -84,20 +92,23 @@
             background-color: #f1cb40;
         }
     }
+
     &.producao_de_texto {
         background-color: #84A214;
 
         &:before {
             background-color: #c8d300;
         }
-    }    
+    }
+
     &.quimica {
         background-color: #C09100;
 
         &:before {
             background-color: #f1cb40;
         }
-    }    
+    }
+
     &.sociologia {
         background-color: #208F6D;
 

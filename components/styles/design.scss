@@ -4,6 +4,7 @@
 */
 @import "common";
 @import "image";
+@import "image_lumen_mais";
 @import "audio";
 @import "trigger_popup";
 @import "image_popup";
@@ -28,6 +29,9 @@
 @import "slideshow_art";
 @import "slideshow_mat";
 @import "container";
+@import "container_nivel1";
+@import "container_nivel2";
+@import "container_nivel3";
 @import "container_coluna_falsa";
 @import "body";
 @import "title";
@@ -261,7 +265,15 @@
 @import "slideshow_2_images";
 @import "slideshow_3_images";
 @import "slideshow_4_images";
+@import "slideshow_5_images";
+@import "slideshow_6_images";
+@import "slideshow_7_images";
+@import "slideshow_8_images";
+@import "slideshow_9_images";
 @import "slideshow_img";
 @import "background";
 @import "audio_lumen_mais";
 @import "video_popup_center_lumen_mais";
+@import "container_fica_a_dica_lumen_mais";
+@import "container_repertorio_cultural_lumen_mais";
+@import "container_saiba_mais_lumen_mais";

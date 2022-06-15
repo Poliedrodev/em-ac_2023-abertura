@@ -4,18 +4,22 @@
   z-index: 1;
   font-family: 'Barlow Condensed';
   font-weight: 600;
-  margin: 0px 68px 0px 68px;
+  margin: 0px;
   letter-spacing: 0.5px;
   display: flex;
+
   &.artes {
     color: $art_cor3;
   }
+
   &.lingua_inglesa {
     color: $ing_cor3;
   }
+
   &.lingua_portuguesa {
     color: $por_cor3;
   }
+
   &.matematica {
     color: $mat_cor3;
   }

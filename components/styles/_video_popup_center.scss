@@ -10,7 +10,8 @@
 .video_popup_center {
     position: relative;
     width: 83%;
-    margin: 32px 68px 20px 68px;
+    margin: 0px;
+    ;
     display: block;
     background-color: #fff;
     transition: all .3s;
@@ -20,48 +21,63 @@
 
     &.artes {
         border: 5px solid $seg_lin_cor1;
+
         .video_popup__content .content-video__title {
             color: $art_cor1;
         }
+
         &:before {
-        background-image: url(img/play-button-lin.png);
+            background-image: url(img/play-button-lin.png);
         }
+
         .video_popup_center.popup_actived {
             background-color: #452848bf;
         }
     }
+
     &.lingua_inglesa {
         border: 5px solid $seg_lin_cor1;
+
         .video_popup__content .content-video__title {
             color: $ing_cor1;
         }
+
         &:before {
-        background-image: url(img/play-button-ing.png);
+            background-image: url(img/play-button-ing.png);
         }
+
         .video_popup_center.popup_actived {
             background-color: #284847bf;
         }
     }
+
     &.lingua_portuguesa {
         border: 5px solid $seg_lin_cor1;
+
         .video_popup__content .content-video__title {
             color: $por_cor1;
         }
+
         &:before {
-        background-image: url(img/play-button.png);
+            background-image: url(img/play-button.png);
         }
+
         .video_popup_center.popup_actived {
             background-color: #482828bf;
         }
     }
+
     &.matematica {
         border: 5px solid $seg_mat_cor1;
+
         .video_popup__content .content-video__title {
-        color: $mat_cor1;
+            color: $mat_cor1;
         }
+
         &:before {
-        background-image: url(img/play-button-mat.png);
+            background-image: url(img/play-button-mat.png);
         }
+
         .video_popup_center.popup_actived {
             background-color: #282f48bf;
         }
@@ -81,25 +97,25 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    
-    &.__ready {        
-        .video_popup__content {                
+
+    &.__ready {
+        .video_popup__content {
             .content-video {
                 &__url {
                     border: 0;
                 }
-        
+
                 &__title {
                     border: 0;
                 }
-                
+
                 &__text {
                     border: 0;
                 }
             }
         }
     }
-    
+
     &.popup_actived {
         position: fixed;
         margin: 0;
@@ -117,7 +133,7 @@
         &:before {
             content: none;
         }
-        
+
         .video_popup__content {
             width: 60%;
             margin: 0 auto;
@@ -128,8 +144,9 @@
             a {
                 display: block;
             }
-            
-            .video_popup__img, .content-video {
+
+            .video_popup__img,
+            .content-video {
                 display: none !important;
             }
 
@@ -146,7 +163,7 @@
             }
         }
     }
-    
+
     .video_popup__content {
         a {
             width: 25px;
@@ -158,14 +175,14 @@
             right: 20px;
             top: 15px;
         }
-        
+
         .video_popup__img {
             position: relative;
             height: 280px !important;
             padding: 0 !important;
             background-size: cover;
         }
-            
+
         .content-video {
             padding: 20px;
 
@@ -177,7 +194,7 @@
                 border: 1px solid #ccc;
                 margin-bottom: 10px;
             }
-    
+
             &__title {
                 color: $por_cor1;
                 font-size: 16px;
@@ -187,21 +204,22 @@
                 border: 1px solid #ccc;
                 margin-bottom: 10px;
             }
-            
+
             &__text {
                 border: 1px solid #ccc;
                 color: #666;
                 font-size: 14px;
                 font-family: 'Montserrat';
                 font-weight: 300;
-        
-                span {                    
+
+                span {
                     color: #666 !important;
                 }
             }
-        }      
+        }
 
-        #playerDefault, #playerYoutube {
+        #playerDefault,
+        #playerYoutube {
             display: none;
         }
 

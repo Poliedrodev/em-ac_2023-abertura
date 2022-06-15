@@ -40,6 +40,39 @@
             }
         },
         {
+            "name": "image_lumen_mais",
+            "icon": "icons/components/image.svg",
+            "label": {
+                "key": "COMPONENT_IMAGE2_LABEL"
+            },
+            "properties": [
+                "position",
+                "style_image",
+                "width",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    },
+                    "stripStylingOnPaste": true
+                },
+                "credit": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    },
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
             "name": "audio",
             "icon": "icons/components/icon_00_arte.svg",
             "label": "Componente Áudio",
@@ -90,6 +123,7 @@
             "name": "trigger_popup2",
             "icon": "icons/components/image.svg",
             "label": "Modal Disparador LUMEN MAIS",
+            "allowNesting": "yes",
             "properties": [
                 {
                     "name": "fitting",
@@ -664,6 +698,42 @@
             "label": {
                 "key": "COMPONENT_CONTAINER_LABEL"
             },
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ]
+        },
+        {
+            "name": "container_nivel1",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 1",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ]
+        },
+        {
+            "name": "container_nivel2",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 2",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ]
+        },
+        {
+            "name": "container_nivel3",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container nivel 3",
             "properties": [
                 "style",
                 "position",
@@ -3362,6 +3432,146 @@
             }
         },
         {
+            "name": "slideshow_5_images",
+            "icon": "icons/components/slideshow.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "Slideshow 5 Imagens(Novo)",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "slideshow_img": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Imagens",
+                            "name": "Imagens",
+                            "components": [
+                                "slideshow_img"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "slideshow_6_images",
+            "icon": "icons/components/slideshow.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "Slideshow 6 Imagens(Novo)",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "slideshow_img": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Imagens",
+                            "name": "Imagens",
+                            "components": [
+                                "slideshow_img"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "slideshow_7_images",
+            "icon": "icons/components/slideshow.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "Slideshow 7 Imagens(Novo)",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "slideshow_img": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Imagens",
+                            "name": "Imagens",
+                            "components": [
+                                "slideshow_img"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "slideshow_8_images",
+            "icon": "icons/components/slideshow.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "Slideshow 8 Imagens(Novo)",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "slideshow_img": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Imagens",
+                            "name": "Imagens",
+                            "components": [
+                                "slideshow_img"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "slideshow_9_images",
+            "icon": "icons/components/slideshow.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "Slideshow 9 Imagens(Novo)",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "slideshow_img": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Imagens",
+                            "name": "Imagens",
+                            "components": [
+                                "slideshow_img"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "name": "slideshow_img",
             "icon": "icons/components/slideshow.svg",
             "label": "Imagem",
@@ -3424,6 +3634,39 @@
                 "letter-spacing",
                 "line-height"
             ]
+        },
+        {
+            "name": "container_fica_a_dica_lumen_mais",
+            "icon": "icons/components/container.svg",
+            "label": "Container Read More",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_repertorio_cultural_lumen_mais",
+            "icon": "icons/components/container.svg",
+            "label": "Container Repertório Cultural",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_saiba_mais_lumen_mais",
+            "icon": "icons/components/container.svg",
+            "label": "Container Saiba Mais",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
         }
     ],
     "groups": [
@@ -3431,9 +3674,15 @@
             "label": "Imagens",
             "name": "Imagens",
             "components": [
+                "image_lumen_mais",
                 "slideshow_2_images",
                 "slideshow_3_images",
-                "slideshow_4_images"
+                "slideshow_4_images",
+                "slideshow_5_images",
+                "slideshow_6_images",
+                "slideshow_7_images",
+                "slideshow_8_images",
+                "slideshow_9_images"
             ]
         },
         {
@@ -3442,9 +3691,15 @@
             "components": [
                 "background",
                 "container",
+                "container_nivel1",
+                "container_nivel2",
+                "container_nivel3",
                 "container_boxe_abertura",
                 "container_boxe_abertura_sem_recuo",
-                "trigger_popup2"
+                "trigger_popup2",
+                "container_fica_a_dica_lumen_mais",
+                "container_repertorio_cultural_lumen_mais",
+                "container_saiba_mais_lumen_mais"
             ]
         },
         {
@@ -3719,6 +3974,24 @@
             "dataType": "styles"
         },
         {
+            "name": "width",
+            "label": {
+                "key": "PROPERTY_IMAGE_HEIGHT_LABEL"
+            },
+            "control": {
+                "type": "text",
+                "pattern": "^(([+-]{0,1})([0-9]|[0-9][.][0-9]{1,}|[0-9]{2}|[0-9]{2}[.][0-9]{1,}|[1-4][0-9]{0,2}|[1-4][0-9]{0,2}[.][0-9]{1,}|(500))|auto)$",
+                "defaultValue": "",
+                "unit": "px",
+                "inputPlaceholder": {
+                    "key": "PROPERTY_AUTO_NUMBER_PLACEHOLDER"
+                }
+            },
+            "selector": "[img-width]",
+            "dataType": "inlineStyles",
+            "featureFlag": "ContentStation-LocalStyleOverrides"
+        },
+        {
             "name": "letter-spacing",
             "label": {
                 "key": "PROPERTY_LETTER_SPACING_LABEL"
@@ -3928,6 +4201,33 @@
             "dataType": "styles"
         },
         {
+            "name": "style_image",
+            "label": {
+                "key": "Centralizar imagem no container: "
+            },
+            "control": {
+                "type": "radio",
+                "options": [
+                    {
+                        "caption": {
+                            "key": "PROPERTY_POSITION_LEFT_OPTION"
+                        },
+                        "icon": "icons/properties/select_check_box.svg",
+                        "value": "_100"
+                    },
+                    {
+                        "caption": {
+                            "key": "PROPERTY_POSITION_MIDDLE_OPTION"
+                        },
+                        "icon": "icons/properties/disabled_by_default.svg",
+                        "value": ""
+                    }
+                ]
+            },
+            "dataType": "styles",
+            "featureFlag": "ContentStation-LocalStyleOverrides"
+        },
+        {
             "name": "fitting",
             "label": {
                 "key": "PROPERTY_FITTING_LABEL"
@@ -4133,90 +4433,22 @@
             }
         },
         "image": {
-            "imagem_boxe_exercicio": "auto",
-            "imagem_boxe_exercicio_item": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_sem_margem": {
-            "image": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_centralizada": {
-            "imagem_sem_margem": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_coluna_falsa": "auto",
-            "image": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_coluna_falsa": {
-            "imagem_sem_margem": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_centralizada": "auto",
-            "image": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_meia_coluna": {
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_meia_coluna_container": {
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "container": {
             "container_coluna_falsa": "auto"
