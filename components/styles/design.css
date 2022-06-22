@@ -3184,7 +3184,7 @@ span[style="text-decoration: line-through;"] {
 
 /* Container component style*/
 .container_coluna_falsa {
-  margin: 20px 68px 20px 68px;
+  margin: 20px 0px 20px 0px;
   clear: both;
   /* class styles for the options properties of the container component */
   /* media query */ }
@@ -3650,7 +3650,7 @@ blockquote {
 
 .container_exercicios {
   padding: 24px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd;
   clear: both;
@@ -3727,7 +3727,7 @@ blockquote {
 .container_boxe1 {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 40px 68px;
+  margin: 32px 0px 40px 0px;
   padding: 0px 16px 8px 6px;
   border-radius: 5px;
   transition: all 0.3;
@@ -4098,7 +4098,7 @@ blockquote {
 .container_boxe_abertura_sem_recuo {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 0px 40px 68px;
+  margin: 32px 0px 40px 0px;
   padding: 0px 16px 8px 6px;
   border-radius: 5px;
   transition: all 0.3;
@@ -4240,7 +4240,7 @@ blockquote {
 
 .container_leitura_complementar {
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -4327,7 +4327,7 @@ blockquote {
 .container_ler_e_escutar {
   border: 1.5px solid #981711;
   padding: 24px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -4373,7 +4373,7 @@ blockquote {
 .container_reading_and_writing {
   border: 1.5px solid #069891;
   padding: 24px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -4419,7 +4419,7 @@ blockquote {
 .container_refletir_e_analisar {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -4511,7 +4511,7 @@ blockquote {
 .container_repertorio_cultural {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 40px 68px;
+  margin: 32px 0px 40px 0px;
   padding: 0px 28px 8px 28px;
   transition: all 0.3;
   background-color: #ECF0A6;
@@ -4606,7 +4606,7 @@ blockquote {
 .container_saiba_mais {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 40px 68px;
+  margin: 32px 0px 40px 0px;
   padding: 0px 28px 8px 28px;
   transition: all 0.3;
   background-color: #ECF0A6;
@@ -4702,7 +4702,7 @@ blockquote {
   border: 1.5px solid #BBBBBB;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
-  margin: 24px 68px 40px 68px;
+  margin: 24px 0px 40px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -4809,7 +4809,7 @@ blockquote {
 .container_textos {
   border: 1.5px solid #000000;
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -5060,7 +5060,7 @@ blockquote {
   width: 162px;
   height: 3px;
   background-color: #000;
-  margin-left: 68px; }
+  margin-left: 0px; }
   .line.artes {
     color: #64428C !important;
     background-color: #C8D300;
@@ -5123,7 +5123,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 0px 8px 68px; }
+  margin: 8px 0px 8px 0px; }
 
 .css_01_texto_unid_bullet {
   display: block;
@@ -5200,7 +5200,7 @@ blockquote {
   font-size: 18px;
   color: #000000;
   font-family: "noticia text", "400";
-  margin: 8px 68px 8px 50px;
+  margin: 8px 0px 8px 50px;
   line-height: 1.5em;
   padding-left: 4px; }
 
@@ -5208,7 +5208,7 @@ blockquote {
   font-size: 18px;
   color: #000000;
   font-family: "noticia text", "400";
-  margin: 16px 68px 16px 70px; }
+  margin: 16px 0px 16px 70px; }
 
 .css_02_texto_item {
   display: block;
@@ -5292,7 +5292,7 @@ blockquote {
   font-size: 40px;
   color: #000000;
   margin: 16px 0px;
-  padding: 0px 68px; }
+  padding: 0px 0px; }
 
 .css_02_texto_citado_titulo {
   font-family: 'Noticia Text';
@@ -5446,7 +5446,7 @@ blockquote {
   font-size: 18px;
   color: #fff;
   display: block;
-  margin: 24px 0px 0px 68px;
+  margin: 24px 0px 0px 0px;
   float: left;
   width: 32px;
   height: 20px;
@@ -5653,7 +5653,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 68px 16px 130px; }
+  margin: 16px 0px 16px 130px; }
   .css_03_exercicio_bullet_sub ul li {
     padding-left: 0px; }
 
@@ -5804,7 +5804,7 @@ blockquote {
   color: #000000;
   border-top: 2px solid #000;
   font-family: "Proxima Nova Lt" !important;
-  margin: 32px 68px 64px 68px;
+  margin: 32px 0px 64px 0px;
   padding: 8px 0px 0px 0px; }
 
 .css_05_grafico_titulo {
@@ -5851,7 +5851,7 @@ blockquote {
   color: #000000;
   font-family: montserrat;
   font-weight: 400;
-  margin: 0px 0px 24px 68px; }
+  margin: 0px 0px 24px 0px; }
 
 .css_05_fonte_mapa {
   display: block;
@@ -5880,7 +5880,7 @@ blockquote {
   font-family: "TheSerif-HP2ExLig";
   font-size: 16px;
   color: #f5006b;
-  margin: 0px 68px;
+  margin: 0px;
   border-bottom: solid 2px #000000;
   height: 32px; }
 
@@ -6140,7 +6140,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_mais:before {
     content: '';
@@ -6235,7 +6235,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_mais:before {
     content: '';
@@ -6330,7 +6330,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_go_further:before {
     content: '';
@@ -6425,7 +6425,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_go_further:before {
     content: '';
@@ -6520,7 +6520,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_discussao_em_sala:before {
     content: '';
@@ -6615,7 +6615,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_discussao_em_sala:before {
     content: '';
@@ -6710,7 +6710,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_speak_out:before {
     content: '';
@@ -6805,7 +6805,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_speak_out:before {
     content: '';
@@ -6900,7 +6900,7 @@ blockquote {
   position: relative;
   padding: 38px 16px 24px 16px;
   box-sizing: border-box;
-  margin: 30px 68px 10px 68px;
+  margin: 30px 0px 10px 0px;
   box-shadow: inset 0px 0px 0px 3px #ccc;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_experimento:before {
@@ -7009,7 +7009,7 @@ blockquote {
   position: relative;
   padding: 38px 16px 24px 16px;
   box-sizing: border-box;
-  margin: 30px 68px 10px 68px;
+  margin: 30px 0px 10px 0px;
   box-shadow: inset 0px 0px 0px 3px #ccc;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_experimento:before {
@@ -7116,7 +7116,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7239,7 +7239,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7362,7 +7362,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7485,7 +7485,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7608,7 +7608,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7729,7 +7729,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7850,7 +7850,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -7971,7 +7971,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8092,7 +8092,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8213,7 +8213,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8334,7 +8334,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8455,7 +8455,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8576,7 +8576,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8697,7 +8697,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8818,7 +8818,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -8939,7 +8939,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -9060,7 +9060,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -9287,7 +9287,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_06_boxe1._right {
@@ -9295,7 +9295,7 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
@@ -9356,7 +9356,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_06_boxe2._right {
@@ -9364,12 +9364,12 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
 .css_06_boxe3 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 108px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -9437,7 +9437,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_06_boxe3._right {
@@ -9445,12 +9445,12 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
 .css_06_boxe4 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 108px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -9506,7 +9506,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_06_boxe4._right {
@@ -9514,7 +9514,7 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 .css_06_boxe_bullet {
@@ -9583,7 +9583,7 @@ blockquote {
   color: #000;
   display: block;
   margin: 4px 0px 16px 0px;
-  padding: 0px 0px 0px 68px;
+  padding: 0px 0px 0px 0px;
   float: left; }
 
 .css_07_secao_titulo1 {
@@ -9697,7 +9697,7 @@ blockquote {
   font-size: 18px;
   color: #000;
   margin: 16px 0px 16px 40px;
-  padding: 24px 68px 0px 68px; }
+  padding: 24px 0px 0px 0px; }
 
 .css_07_secao_exercicio2 {
   display: block;
@@ -10338,7 +10338,7 @@ blockquote {
   min-height: 100px;
   position: relative;
   padding: 16px 0px 8px 0px;
-  margin: 68px;
+  margin: 0px;
   box-sizing: border-box; }
   .css_07_secao_texto_e_contexto .tag {
     width: auto;
@@ -10413,7 +10413,7 @@ blockquote {
   background-color: #F7F9D9;
   min-height: 100px;
   position: relative;
-  margin: 0px 68px;
+  margin: 0px;
   padding: 38px 0px 16px 0px;
   box-sizing: border-box; }
   .css_07_secao_arte_em_leitura .tag {
@@ -10434,7 +10434,7 @@ blockquote {
   min-height: 100px;
   position: relative;
   padding: 16px 0px 8px 0px;
-  margin: 68px;
+  margin: 0px;
   box-sizing: border-box; }
   .css_07_secao_texto_em_foco .tag {
     width: auto;
@@ -10454,7 +10454,7 @@ blockquote {
   min-height: 100px;
   position: relative;
   padding: 16px 0px 8px 0px;
-  margin: 68px;
+  margin: 0px;
   box-sizing: border-box; }
   .css_07_secao_ponto_de_vista .tag {
     width: auto;
@@ -10505,7 +10505,7 @@ blockquote {
 
 /* Container component style*/
 .css_07_boxe1 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 108px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border: 3px solid #951B81;
@@ -10574,7 +10574,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_07_boxe1._right {
@@ -10582,12 +10582,12 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
 .css_07_boxe2 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 108px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -10643,7 +10643,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_07_boxe2._right {
@@ -10651,7 +10651,7 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
@@ -10725,7 +10725,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_07_boxe3._right {
@@ -10733,7 +10733,7 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 /* Container component style*/
@@ -10794,7 +10794,7 @@ blockquote {
       float: left;
       clear: left;
       width: 50%;
-      margin-left: 68px;
+      margin-left: 0px;
       margin-right: 24px;
       z-index: 1; }
     .css_07_boxe4._right {
@@ -10802,7 +10802,7 @@ blockquote {
       clear: right;
       width: 50%;
       margin-left: 24px;
-      margin-right: 68px;
+      margin-right: 0px;
       z-index: 1; } }
 
 .css_08_tabela_titulo {
@@ -11520,7 +11520,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .audio_lumen_mais {
   position: relative;
-  width: 84%;
+  width: 100%;
+  margin: 32px 0px 20px 0px;
   transition: all .3s;
   border: 5px solid #bfd730;
   background-color: #fff;
@@ -11578,14 +11579,21 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 /* Image component style */
 .video_popup_center_lumen_mais {
   position: relative;
-  width: 83%;
-  margin: 0px;
+  width: auto;
+  margin: 32px 0px 20px 0px;
   display: block;
   background-color: #fff;
   transition: all .3s;
   border: 5px solid #bfd730;
   border-radius: 4px;
   cursor: pointer; }
+  .video_popup_center_lumen_mais .video_popup__content .video__embed {
+    width: 100%; }
+    .video_popup_center_lumen_mais .video_popup__content .video__embed iframe {
+      width: 100%;
+      min-height: 400px;
+      padding: 0;
+      margin: 0; }
   .video_popup_center_lumen_mais.artes {
     border: 5px solid #bfd730; }
     .video_popup_center_lumen_mais.artes .video_popup__content .content-video__title {

@@ -4,7 +4,7 @@
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: $font-proximaNova-light;
 
   &:before {
@@ -39,86 +39,109 @@
 
   &.artes {
     border-color: #C8D300;
+
     &:after {
-        background-color: #84A214;
-        border-color: #C8D300;
+      background-color: #84A214;
+      border-color: #C8D300;
     }
   }
+
   &.biologia {
     border-color: #F7A941;
+
     &:after {
-        background-color: #BD8432;
-        border-color: #F7A941;
+      background-color: #BD8432;
+      border-color: #F7A941;
     }
   }
+
   &.filosofia {
     border-color: #8CCAAE;
+
     &:after {
-        background-color: #208F6D;
-        border-color: #8CCAAE;
+      background-color: #208F6D;
+      border-color: #8CCAAE;
     }
   }
+
   &.fisica {
     border-color: #F7A941;
+
     &:after {
-        background-color: #BD8432;
-        border-color: #F7A941;
+      background-color: #BD8432;
+      border-color: #F7A941;
     }
   }
+
   &.geografia {
     border-color: #8CCAAE;
+
     &:after {
-        background-color: #208F6D;
-        border-color: #8CCAAE;
+      background-color: #208F6D;
+      border-color: #8CCAAE;
     }
   }
+
   &.historia {
     border-color: #8CCAAE;
+
     &:after {
-        background-color: #208F6D;
-        border-color: #8CCAAE;
+      background-color: #208F6D;
+      border-color: #8CCAAE;
     }
   }
+
   &.lingua_inglesa {
     border-color: #C8D300;
+
     &:after {
-        background-color: #84A214;
-        border-color: #C8D300;
+      background-color: #84A214;
+      border-color: #C8D300;
     }
   }
+
   &.lingua_portuguesa {
     border-color: #C8D300;
+
     &:after {
-        background-color: #84A214;
-        border-color: #C8D300;
+      background-color: #84A214;
+      border-color: #C8D300;
     }
   }
+
   &.matematica {
     border-color: #F1CB40;
+
     &:after {
-        background-color: #C09100;
-        border-color: #F1CB40;
+      background-color: #C09100;
+      border-color: #F1CB40;
     }
   }
+
   &.producao_de_texto {
     border-color: #C8D300;
+
     &:after {
-        background-color: #84A214;
-        border-color: #C8D300;
+      background-color: #84A214;
+      border-color: #C8D300;
     }
   }
+
   &.quimica {
     border-color: #F7A941;
+
     &:after {
-        background-color: #BD8432;
-        border-color: #F7A941;
+      background-color: #BD8432;
+      border-color: #F7A941;
     }
   }
+
   &.sociologia {
     border-color: #8CCAAE;
+
     &:after {
-        background-color: #208F6D;
-        border-color: #8CCAAE;
+      background-color: #208F6D;
+      border-color: #8CCAAE;
     }
   }
 }

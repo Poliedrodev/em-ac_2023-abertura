@@ -2,20 +2,20 @@
     float: left;
     position: relative;
     box-sizing: border-box;
-    margin: 32px 68px 56px 68px;
+    margin: 32px 0px 56px 0px;
     width: 83%;
     min-height: 50px;
-    background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
     input[type=checkbox] {
         display: none;
     }
 
-    input[type=checkbox]:checked ~ label {
+    input[type=checkbox]:checked~label {
         background: url(img/icon-box-collapsed-open.png) right -3px no-repeat;
     }
 
-    input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    input[type=checkbox]:checked~.txt_boxe_collapsed {
         display: block;
     }
 
@@ -57,12 +57,12 @@
         padding: 15px;
         box-sizing: border-box;
         font-family: $font-proximaNova-light;
-        font-size: 16px;        
-        display: none; 
+        font-size: 16px;
+        display: none;
     }
-    
+
     &.artes {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(132, 162, 20, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
@@ -74,144 +74,155 @@
             }
         }
     }
+
     &.biologia {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_biologia.png);
             }
         }
     }
+
     &.filosofia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #208F6D;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_filosofia.png);
             }
         }
-    } 
+    }
+
     &.fisica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_fisica.png);
             }
         }
     }
+
     &.geografia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #208F6D;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_geografia.png);
             }
         }
     }
+
     &.historia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #208F6D;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_historia.png);
             }
         }
     }
+
     &.lingua_inglesa {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(132, 162, 20, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_lingua_inglesa.png);
             }
         }
     }
+
     &.lingua_portuguesa {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(132, 162, 20, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_lingua_portuguesa.png);
             }
         }
     }
+
     &.matematica {
-        background: linear-gradient(180deg, rgba(250,237,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(250, 237, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #C09100;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_matematica.png);
             }
         }
     }
+
     &.producao_de_texto {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(132, 162, 20, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_producao_de_texto.png);
             }
         }
     }
+
     &.quimica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #BD8432;
             }
-            
-            &:after {                
+
+            &:after {
                 background-image: url(img/css_06_boxe_em_matematica_quimica.png);
             }
         }
     }
+
     &.sociologia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         label {
             &:before {
                 color: #208F6D;
             }
-            
+
             &:after {
                 background-image: url(img/css_06_boxe_em_matematica_sociologia.png);
             }
