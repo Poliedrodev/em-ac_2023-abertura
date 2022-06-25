@@ -1,7 +1,7 @@
 .container_boxe1 {
     position: relative;
     box-sizing: border-box;
-    margin: 32px 68px 40px 68px;
+    margin: 32px 0px 40px 0px;
     padding: 0px 16px 8px 6px;
     border-radius: 5px;
     transition: all 0.3;
@@ -11,12 +11,12 @@
         display: none;
     }
 
-    input[type=checkbox]:checked ~ label {
+    input[type=checkbox]:checked~label {
         background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat;
         transition: all 0.25s ease-out;
     }
 
-    input[type=checkbox]:checked ~ .doc_container {
+    input[type=checkbox]:checked~.doc_container {
         display: block;
         transition: all 0.25s ease-out;
     }
@@ -31,7 +31,7 @@
         left: -7px;
     }
 
-    .text-box{
+    .text-box {
         min-width: 200px;
         font-family: 'Nunito Sans';
         font-weight: 900;
@@ -41,7 +41,8 @@
         left: 28px;
         top: 10px;
     }
-    .line-box{
+
+    .line-box {
         border-left: 2px solid #FFF;
         margin-left: 6px
     }
@@ -52,7 +53,7 @@
         box-sizing: border-box;
         display: none;
     }
-    
+
     &.artes {
         background-color: #d8e783;
 
@@ -60,44 +61,48 @@
             color: #62883b;
         }
     }
+
     &.lingua_inglesa {
         background-color: #d8e783;
 
         .text-box {
             color: #62883b;
-            
+
         }
     }
+
     &.lingua_portuguesa {
         background-color: #d8e783;
 
         .text-box {
             color: #62883b;
-            
+
         }
     }
+
     &.matematica {
         background-color: #FAEDBC;
 
         .text-box {
-            color: #C09100 ;
-            
+            color: #C09100;
+
         }
     }
 
-  /* media query */
-  @media only screen and (min-width: $phone-max-width) {
-    &._left {
-        float: left;
-        clear: left;
-        width: 33%;
-        z-index: 1;
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 33%;
+            z-index: 1;
+        }
+
+        &._right {
+            float: right;
+            clear: right;
+            width: 33%;
+            z-index: 1;
+        }
     }
-    &._right {
-        float: right;
-        clear: right;
-        width: 33%;
-        z-index: 1;
-    }
-  }
 }
