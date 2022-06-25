@@ -16,7 +16,6 @@
 @import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
-@import url(https://perugluglu.net/poliedro/stylesheet.css);
 /* Article view style */
 .body,
 .body-book {
@@ -3026,6 +3025,7 @@ span[style="text-decoration: line-through;"] {
       float: left;
       clear: left;
       width: 47%;
+      padding-left: 70px;
       padding-top: 25px;
       z-index: 1;
       height: 100%; }
@@ -4098,7 +4098,7 @@ blockquote {
 .container_boxe_abertura_sem_recuo {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 0px 40px 68px;
+  margin: 32px 0px 40px 0px;
   padding: 0px 16px 8px 6px;
   border-radius: 5px;
   transition: all 0.3;
@@ -4976,7 +4976,8 @@ blockquote {
   font-weight: 600;
   margin: 0px;
   letter-spacing: 0.5px;
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .css_01_titulo_chap_num.artes {
     color: #B9A9CB; }
   .css_01_titulo_chap_num.lingua_inglesa {
@@ -5123,7 +5124,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 0px 8px 68px; }
+  margin: 8px 0px 8px 0px; }
 
 .css_01_texto_unid_bullet {
   display: block;
@@ -5139,7 +5140,7 @@ blockquote {
     font-weight: 400;
     line-height: 1.5em;
     padding-left: 4px;
-    margin: -8px 0px -8px 50px; }
+    margin: -8px 0px -8px 0px; }
 
 .css_01_bullet_unid {
   display: block;
@@ -5200,7 +5201,7 @@ blockquote {
   font-size: 18px;
   color: #000000;
   font-family: "noticia text", "400";
-  margin: 8px 68px 8px 50px;
+  margin: 8px 68px 8px 0px;
   line-height: 1.5em;
   padding-left: 4px; }
 
@@ -5208,7 +5209,7 @@ blockquote {
   font-size: 18px;
   color: #000000;
   font-family: "noticia text", "400";
-  margin: 16px 68px 16px 70px; }
+  margin: 16px 68px 16px 0px; }
 
 .css_02_texto_item {
   display: block;
@@ -5217,7 +5218,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 18px;
   padding: 0px 68px;
-  margin: 16px 0px 16px 40px; }
+  margin: 16px 0px 16px 0px; }
 
 .css_02_texto_definicao {
   display: block;
@@ -5301,7 +5302,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 22px;
   display: block;
-  margin: 24px 0px 16px 70px; }
+  margin: 24px 0px 16px 0px; }
 
 .css_02_texto_citado {
   display: block;
@@ -5310,7 +5311,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 15px 0px 70px; }
+  margin: 8px 15px 0px 0px; }
 
 .css_02_texto_citado_fonte {
   display: block;
